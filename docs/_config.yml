@@ -115,7 +115,7 @@ author:
   links:
     - label: "elsys-oop@googlegroups.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:elsys-oop@googlegroups.com"
     - label: "Сайт на ТУЕС"
       icon: "fas fa-fw fa-link"
       url: "https://elsys-bg.org"
@@ -127,7 +127,7 @@ author:
       url: "https://docs.google.com/spreadsheets/d/1G3cmSckvgz-KQthcBO9Ea5Hg-6gmP_hOpbB_u8hw4jM/edit?usp=sharing"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/elsys"
+      url: "https://github.com/elsys/oop"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
