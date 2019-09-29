@@ -1,0 +1,10 @@
+Enter double value:
+Value=3.14
+Enter double value:
+Value=3.14
+Enter double value:
+Value=3.14
+Enter double value:
+Value=3.14
+Enter double value:
+Value=3.14
