@@ -1,0 +1,6 @@
+a.out
+*.o
+*.bak
+*.class
+.metadata/
+.recommenders/
