@@ -1,0 +1,5 @@
+a.out
+draw
+*.o
+*.class
+out/
