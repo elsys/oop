@@ -12,13 +12,13 @@ int digits_count(int number) {
 }
 
 void print_digits(int number) {
-	if (number < 10) {
+  if (number < 10) {
     printf("%d\n", number);
-		return;
-	}
+    return;
+  }
 
   printf("%d,", number % 10);
-	print_digits(number / 10);
+  print_digits(number / 10);
 }
 
 struct vector_t {

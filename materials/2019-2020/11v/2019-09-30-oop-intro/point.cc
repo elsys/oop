@@ -22,18 +22,29 @@ public:
   }
 
   double distance_to(Point other) {
-    double dx = x - other.x;
-    double dy = y - other.y;
+    double dx = get_x() - other.get_x();
+    double dy = get_y() - other.get_y();
 
     return sqrt(dx * dx + dy * dy);
+  }
+
+  Point add(Point other) {
+    return Point(get_x() + other.get_x(), get_y() + other.get_y());
+  }
+
+  void print() {
+    cout << '(' << get_x() << ", " << get_y() << ")\n";
   }
 };
 
 int main() {
-  Point first_point(3, 4);
-  Point second_point(42, 312);
+  Point first_point(5, 4);
+  Point second_point(42, 123);
 
   cout << "Distance: " << first_point.distance_to(second_point) << '\n';
+
+  Point third_point = first_point.add(second_point);
+  third_point.print();
 
   return 0;
 }

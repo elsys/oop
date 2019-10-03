@@ -7,8 +7,8 @@ struct point_t {
 };
 
 struct point_t point_init(struct point_t *point, double x, double y) {
-	point->x = x;
-	point->y = y;
+  point->x = x;
+  point->y = y;
 }
 
 double point_get_x(struct point_t point) {
@@ -28,9 +28,9 @@ double distance(struct point_t first, struct point_t second) {
 
 int main() {
   struct point_t first_point;
-	point_init(&first_point, 3, 4);
+  point_init(&first_point, 3, 4);
   struct point_t second_point;
-	point_init(&second_point, 42, 312);
+  point_init(&second_point, 42, 312);
 
   printf("Distance: %f\n", distance(first_point, second_point));
 

@@ -31,9 +31,9 @@ struct vector_t {
 int main(int argc, char *argv[]) {
   int numbers_count = atoi(argv[1]);
   struct vector_t numbers = {
-		numbers_count,
-		(int*)malloc(numbers_count * sizeof(int))
-	};
+    numbers_count,
+    (int*)malloc(numbers_count * sizeof(int))
+  };
 
   for (int i = 0; i < numbers_count; ++i) {
     int number;
@@ -43,8 +43,8 @@ int main(int argc, char *argv[]) {
   for (int i = 0; i < numbers.size; ++i) {
     print_digits(numbers.data[i]);
   }
-	
-	free(numbers.data);
+
+  free(numbers.data);
 
   return 0;
 }
