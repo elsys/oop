@@ -1,15 +1,17 @@
 #include <stdio.h>
 
+#define CAPACITY 100
+
 struct stack_t {
   int size;
-  int elements[100];
+  int elements[CAPACITY];
 };
 
 void stack_init(struct stack_t *stack) {
   stack->size = 0;
 }
 
-int stack_empty(struct stack_t *stack) {
+int stack_is_empty(struct stack_t *stack) {
   return stack->size == 0;
 }
 
@@ -28,15 +30,15 @@ void stack_pop(struct stack_t *stack) {
 int main() {
   struct stack_t stack;
   stack_init(&stack);
-  printf("%d\n", stack_empty(&stack));
+  printf("%d\n", stack_is_empty(&stack));
   stack_push(&stack, 42);
-  printf("%d\n", stack_empty(&stack));
+  printf("%d\n", stack_is_empty(&stack));
   stack_push(&stack, 123);
   printf("%d\n", stack_peek(&stack));
   stack_pop(&stack);
   printf("%d\n", stack_peek(&stack));
   stack_pop(&stack);
-  printf("%d\n", stack_empty(&stack));
+  printf("%d\n", stack_is_empty(&stack));
 
   return 0;
 }
