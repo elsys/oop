@@ -1,0 +1,17 @@
+Exceptions: An exception is a problem that arises during the execution of a program. Exception is a response to an exceptional circumstance that arises while a program is running, such as an attempt to divide by zero.
+Exceptions provide a way to transfer control from one part of a program to another.
+
+Exceptions can be trown from anywhere in the code.
+This can be accoplished by using 'throw' keyword.
+
+throw #someClass#
+
+best way is to throw instance of class
+
+For handling exceptions we can use try/catch block:
+
+try{
+	//protected code that may throw an exception
+} catch(#expectedExceptionType# ex) {
+	//some code
+}

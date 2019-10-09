@@ -1,0 +1,61 @@
+learn sources:
+http://lubo.elsys-bg.org - main sources
+https://www.tutorialspoint.com/cplusplus
+https://www.w3schools.com/cpp
+google 
+
+cin - standard c++ way to read from terminal
+cout - standard c++ way to print to the terminal
+endl == \n
+
+cin >> #someVariable#
+cout << #someText/Variable# << endl;
+
+Classes:user defined data structure
+
+How to define:
+class #className# {
+	//class body
+}
+
+Contains class variables and class functions
+
+access modifiers:
+private (default) - visible only inside the class
+public - visible everywhre
+protected - later
+
+Used for encapsulation - hidding inner variables and methods from outside world
+
+how to specify access modifier:
+public: //everything bellow will have public access
+	//variables and methods
+private: ///everything bellow will have private access
+	//variables and methods
+
+Constructor:
+Used for seting value of class variables or performing some actions when an instance of the class is created
+
+If no constructor is defined then a default constructor with no params is available. It is called default constructor
+
+If we define custom constructor then no default constructor is available and we can use only user defined constructor
+
+Can have many constructors with different parameters
+
+how to define constructor:
+class #className# {
+	
+	//constructor:
+	public:
+		#className# (#parameters#) {
+			//constructor body
+		}
+}
+
+Ways to create instances of class:
+#className# #instanceName# = #className#(#constructorParameters#);
+#className# #instanceName# = {#constructorParameters#};
+#className# #instanceName# {#constructorParameters#};
+
+this - pointer to self used in classes. Can be used inside the class to access class variables/methods.
+
