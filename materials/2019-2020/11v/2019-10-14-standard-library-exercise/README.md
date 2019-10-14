@@ -92,7 +92,7 @@ BankAccount account_of_ivan("Ivan", "1", 2000);
 BankAccount account_of_petar("Petar", "2", 500);
 BankAccount second_account_of_ivan("Ivan", "3", 400);
 
-std::vector<BankAccount> accounts = { accountOfIvan, accountOfPetar };
+std::vector<BankAccount> accounts = { account_of_ivan, account_of_petar };
 Bank bank(accounts);
 bank.add_account(second_account_of_ivan); // добавя втора сметка на "Ivan" в банката
 
