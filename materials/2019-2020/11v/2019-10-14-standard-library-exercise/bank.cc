@@ -64,7 +64,7 @@ class Bank {
         iter != bank_accounts.end();
         ++iter
         ) {
-      if ((*iter).get_number() == number) {
+      if (iter->get_number() == number) {
         return iter;
       }
     }
