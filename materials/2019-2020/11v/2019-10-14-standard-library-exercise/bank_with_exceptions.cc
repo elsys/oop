@@ -8,7 +8,14 @@ class BankAccount {
   double balance;
 
 public:
-  class NotEnoughAmountError {};
+  class NotEnoughAmountError {
+  public:
+    std::string message;
+
+    NotEnoughAmountError() {
+      message = "Not enough amount";
+    }
+  };
 
   BankAccount() {
     balance = 0;
@@ -78,8 +85,23 @@ class Bank {
   }
 
 public:
-  class AccountNotFoundError {};
-  class AccountAlreadyExistsError {};
+  class AccountNotFoundError {
+  public:
+    std::string message;
+
+    AccountNotFoundError() {
+      message = "Account not found";
+    }
+  };
+
+  class AccountAlreadyExistsError {
+  public:
+    std::string message;
+
+    AccountAlreadyExistsError() {
+      message = "Account already exists";
+    }
+  };
 
   Bank() {}
 
@@ -134,7 +156,7 @@ int main() {
   try {
     bank_account.draw(110);
   } catch (BankAccount::NotEnoughAmountError error) {
-    std::cout << "Cannot draw: Not enough amount\n";
+    std::cout << "Cannot draw: " << error.message << '\n';
   }
 
   BankAccount account_of_ivan("Ivan", "1", 2000);
@@ -147,20 +169,20 @@ int main() {
   try {
     bank.add_account(account_of_ivan);
   } catch (Bank::AccountAlreadyExistsError error) {
-    std::cout << "Cannot add account: Account already exists\n";
+    std::cout << "Cannot add account: " << error.message << '\n';
   }
 
   bank.remove_account("2");
   try {
     std::cout << bank.get_account_balance("2") << '\n';
   } catch (Bank::AccountNotFoundError error) {
-    std::cout << "Cannot get account balance: Account not found\n";
+    std::cout << "Cannot get account balance: " << error.message << '\n';
   }
 
   try {
     bank.remove_account("2");
   } catch (Bank::AccountNotFoundError error) {
-    std::cout << "Cannot remove account: Account not found\n";
+    std::cout << "Cannot remove account: " << error.message << '\n';
   }
 
   return 0;
