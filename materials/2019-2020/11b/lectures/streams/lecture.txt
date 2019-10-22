@@ -1,0 +1,24 @@
+Streams
+i - input - read from stream
+o - output - write to stream
+
+>> - read from stream
+<< - write to stream
+
+good - evrything is ok
+bad - error i/o operations
+fail - logical error
+eof - end of stream
+
+good()
+bad()
+fail()
+eof()
+
+open() - open stream
+close() - closes the stream
+
+void* () returns != NULL 
+
+istream in
+if(in)

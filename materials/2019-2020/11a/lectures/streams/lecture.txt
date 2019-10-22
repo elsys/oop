@@ -1,0 +1,14 @@
+Streams:
+i - input - read from stream
+o - outut - write to stream
+
+<< - write
+>> - read
+
+good - No errors
+bad - Read/writing error on i/o operation
+fail - Logical error on i/o operation
+eof - End-of-File reached on input operation
+
+open - open the stream
+close - close the stream
