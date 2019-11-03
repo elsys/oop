@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <iostream>
 
 class Product {
 public:
@@ -105,8 +106,38 @@ public:
     }
     return oss.str();
   }
+
+  void fromString(std::string results) {
+    std::istringstream productsInputStream(results);
+    std::string productString;
+    while (std::getline(productsInputStream, productString, ':')) {
+      std::istringstream productInputStream(productString);
+      if (productInputStream.peek() == ' ') {
+        productInputStream.ignore();
+      }
+
+      std::string name;
+      std::string priceString;
+      unsigned int quantity;
+      std::getline(productInputStream, name, ',').ignore();
+      std::getline(productInputStream, priceString, ',').ignore();
+      productInputStream >> quantity;
+
+      std::stringstream parseStream;
+      float price;
+      parseStream << priceString;
+      parseStream >> price;
+
+      addProduct(Product { name, price, quantity });
+    }
+  }
 };
 
 int main() {
+  Supermarket supermarket;
+  supermarket.fromString("Water, 1.99, 42 : Bread, 0.99, 12 : Water, 0.55, 20");
+  supermarket.removeQuantity(Product { "Bread", 0.99, 2 });
+  std::cout << supermarket.toString();
+
   return 0;
 }
