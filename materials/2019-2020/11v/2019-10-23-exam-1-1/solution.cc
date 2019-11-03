@@ -120,7 +120,7 @@ public:
       std::string priceString;
       unsigned int quantity;
       std::getline(productInputStream, name, ',').ignore();
-      std::getline(productInputStream, priceString, ',').ignore();
+      std::getline(productInputStream, priceString, ',');
       productInputStream >> quantity;
 
       std::stringstream parseStream;
