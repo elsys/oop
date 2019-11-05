@@ -23,11 +23,11 @@ public:
   }
 
   Rational reciprocal() const {
-    return Rational(denominator, numerator);
+    return Rational(get_denominator(), get_numerator());
   }
 
   Rational operator-() const {
-    return Rational(-numerator, denominator);
+    return Rational(-get_numerator(), get_denominator());
   }
 };
 
