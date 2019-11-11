@@ -49,7 +49,7 @@ Vector vector(elements);
 
 * `Vector operator*(double scalar) const` - умножение на вектор със скалар;
 резултатът от операцията да бъде нов вектор
-* `Vector operator*=(double scalar)` - умножение на вектор със скалар, като
+* `Vector& operator*=(double scalar)` - умножение на вектор със скалар, като
 резултатът да бъде записан във вектора
 
   Пример:
