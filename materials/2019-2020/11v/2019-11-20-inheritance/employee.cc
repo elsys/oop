@@ -1,23 +1,18 @@
+#include "employee.hh"
 #include <string>
 #include <iostream>
 
-class Employee {
-  unsigned long id;
-  std::string name;
+Employee::Employee(unsigned long id, std::string name)
+  : id(id), name(name) {}
 
-public:
-  Employee(unsigned long id, std::string name)
-    : id(id), name(name) {}
+unsigned long Employee::get_id() const {
+  return id;
+}
 
-  unsigned long get_id() const {
-    return id;
-  }
+std::string Employee::get_name() const {
+  return name;
+}
 
-  std::string get_name() const {
-    return name;
-  }
-
-  void print() const {
-    std::cout << get_id() << ": " << get_name();
-  }
-};
+void Employee::print() const {
+  std::cout << get_id() << ": " << get_name();
+}

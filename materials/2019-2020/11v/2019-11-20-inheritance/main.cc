@@ -1,5 +1,6 @@
+#include "employee.hh"
+#include "manager.hh"
 #include <iostream>
-#include "manager.cc"
 
 int main() {
   Employee e(123123, "Ivan");
