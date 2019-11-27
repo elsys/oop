@@ -9,6 +9,7 @@ int main() {
   e.print();
   std::cout << '\n';
   m.print();
+  std::cout << '\n';
 
   Employee* employees[10];
   employees[0] = &e;
