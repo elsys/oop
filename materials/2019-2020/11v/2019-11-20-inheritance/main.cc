@@ -1,5 +1,6 @@
+#include "employee.hh"
+#include "manager.hh"
 #include <iostream>
-#include "manager.cc"
 
 int main() {
   Employee e(123123, "Ivan");
@@ -8,6 +9,7 @@ int main() {
   e.print();
   std::cout << '\n';
   m.print();
+  std::cout << '\n';
 
   Employee* employees[10];
   employees[0] = &e;
