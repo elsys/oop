@@ -1,15 +1,11 @@
 #ifndef HOME_CLIENT_DOUBLE_HH
 #define HOME_CLIENT_DOUBLE_HH
 
-#include "./home_client.hh"
+#include "./client.hh"
+#include "./double_rate.hh"
 
-class HomeClientDouble : public HomeClient {
+class HomeClientDouble : public Client, public DoubleRate {
 public:
-  float usedPowerDay;
-  float usedPowerNight;
-  float rateDay;
-  float rateNight;
-
   float calcBill() {
     return usedPowerDay * (rateDay + deliveryRate + distributionRate)
          + usedPowerNight * (rateNight + deliveryRate + distributionRate);
