@@ -3,6 +3,8 @@
 
 class Shape {
 public:
+  virtual Shape* clone() const = 0;
+
   virtual void draw() const = 0;
 
   virtual double get_perimeter() const = 0;

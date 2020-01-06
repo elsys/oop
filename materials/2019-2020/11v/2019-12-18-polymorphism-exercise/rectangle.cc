@@ -5,6 +5,10 @@ Rectangle::Rectangle(
     Point const& bottom_right)
   : upper_left(upper_left), bottom_right(bottom_right) {}
 
+Shape* Rectangle::clone() const {
+  return new Rectangle(*this);
+}
+
 void Rectangle::draw() const {
   std::cout
     << "Rectangle:\n"

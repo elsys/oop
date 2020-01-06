@@ -9,6 +9,14 @@ class Drawing {
   std::vector<Shape const*> shapes;
 
 public:
+  Drawing();
+
+  Drawing(Drawing const& other);
+
+  Drawing& operator=(Drawing const& other);
+
+  ~Drawing();
+
   void add_shape(Shape const* shape);
 
   void draw() const;

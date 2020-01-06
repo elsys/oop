@@ -4,6 +4,10 @@
 Square::Square(Point const& upper_left, Point const& bottom_right)
   : Rectangle(upper_left, bottom_right) {}
 
+Shape* Square::clone() const {
+  return new Square(*this);
+}
+
 void Square::draw() const {
   std::cout
     << "Square:\n"

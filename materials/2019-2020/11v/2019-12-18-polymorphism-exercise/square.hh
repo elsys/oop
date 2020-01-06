@@ -8,6 +8,8 @@ class Square : public Rectangle {
 public:
   Square(Point const& upper_left, Point const& bottom_right);
 
+  Shape* clone() const;
+
   void draw() const;
 };
 

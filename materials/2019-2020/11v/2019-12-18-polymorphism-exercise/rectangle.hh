@@ -12,6 +12,8 @@ protected:
 public:
   Rectangle(Point const& upper_left, Point const& bottom_right);
 
+  Shape* clone() const;
+
   void draw() const;
 
   double get_width() const;

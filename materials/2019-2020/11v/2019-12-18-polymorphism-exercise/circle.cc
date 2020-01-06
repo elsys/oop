@@ -5,6 +5,10 @@
 Circle::Circle(Point const& center, double radius)
   : center(center), radius(radius) {}
 
+Shape* Circle::clone() const {
+  return new Circle(*this);
+}
+
 void Circle::draw() const {
   std::cout
     << "Circle:\n"

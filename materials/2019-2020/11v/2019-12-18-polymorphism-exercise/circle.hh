@@ -11,6 +11,8 @@ class Circle : public Shape {
 public:
   Circle(Point const& center, double radius);
 
+  Shape* clone() const;
+
   void draw() const;
 
   double get_perimeter() const;
