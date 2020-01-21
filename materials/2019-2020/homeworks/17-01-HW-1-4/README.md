@@ -70,10 +70,10 @@
   * void `void send_order(unsigned int order_id)` - изпращане на поръчка с
   идентификационен номер `order_id`. При изпращане на поръчка се променя нейният
   статус на "Изпратена".
-  * `колекция<Order const&> get_orders_by_user(unsigned int user_id) const` -
+  * `колекция<Order const*> get_orders_by_user(unsigned int user_id) const` -
   връща всики направени поръчки от потребител с идентификационен номер
   `user_id`.
-  * `колекция<Item const&> get_items_by_supplier(Supplier const& supplier) const` -
+  * `колекция<Item const*> get_items_by_supplier(Supplier const& supplier) const` -
   връща всики доставяни артикули от даден доставчик.
 
 Обработка на грешки
