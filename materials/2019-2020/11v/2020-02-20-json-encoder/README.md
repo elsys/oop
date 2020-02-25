@@ -78,24 +78,24 @@ JSON (JavaScript Object Notation) е лек и удобен формат за с
 
 10. `char[]`
 
-   ```java
-   char[] characters = new char[] { 'a', 'b', 'c', 'x', 'y', 'z' };
-   JsonEncoder.encode(characters); // -> "["a", "b", "c", "x", "y", "z"]"
-   ```
+    ```java
+    char[] characters = new char[] { 'a', 'b', 'c', 'x', 'y', 'z' };
+    JsonEncoder.encode(characters); // -> "["a", "b", "c", "x", "y", "z"]"
+    ```
 
 11. `String[]`
 
-   ```java
-   String[] strings = new String[] { "foo", "hello world", "bar" };
-   JsonEncoder.encode(characters); // -> "["foo", "hello world", "bar"]"
-   ```
+    ```java
+    String[] strings = new String[] { "foo", "hello world", "bar" };
+    JsonEncoder.encode(characters); // -> "["foo", "hello world", "bar"]"
+    ```
 
 12. `Point[]`
 
-   ```java
-   String[] points = new Point[] { new Point(), new Point(42, -3.14) };
-   JsonEncoder.encode(characters); // -> "[{ "x": 0, "y": 0 }, { "x": 42, "y": -3.14 }]"
-   ```
+    ```java
+    Point[] points = new Point[] { new Point(), new Point(42, -3.14) };
+    JsonEncoder.encode(characters); // -> "[{ "x": 0, "y": 0 }, { "x": 42, "y": -3.14 }]"
+    ```
 
 Да се напише клас `Main`, съдържащ `public static void main(String[] args)`
 метод, който демонстрира работата на `JsonEncoder`.
