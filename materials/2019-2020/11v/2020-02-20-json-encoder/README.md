@@ -87,14 +87,14 @@ JSON (JavaScript Object Notation) е лек и удобен формат за с
 
     ```java
     String[] strings = new String[] { "foo", "hello world", "bar" };
-    JsonEncoder.encode(characters); // -> "["foo", "hello world", "bar"]"
+    JsonEncoder.encode(strings); // -> "["foo", "hello world", "bar"]"
     ```
 
 12. `Point[]`
 
     ```java
     Point[] points = new Point[] { new Point(), new Point(42, -3.14) };
-    JsonEncoder.encode(characters); // -> "[{ "x": 0, "y": 0 }, { "x": 42, "y": -3.14 }]"
+    JsonEncoder.encode(points); // -> "[{ "x": 0, "y": 0 }, { "x": 42, "y": -3.14 }]"
     ```
 
 Да се напише клас `Main`, съдържащ `public static void main(String[] args)`
