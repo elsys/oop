@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2602e2bb-48cc-4d8b-9822-93a738aee632" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Y1hh73TRjhGkiHHOcr9vMYIxhI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.java.com.elsys" />
+      <recent name="com.elsys" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test.com" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TriangleTest.getArea">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.elsys.Main" />
+      <module name="1va_zad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest.getArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1va_zad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.RectangleTest" />
+      <option name="METHOD_NAME" value="getArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest.getPerimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1va_zad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.RectangleTest" />
+      <option name="METHOD_NAME" value="getPerimeter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit">
+      <module name="1va_zad" />
+      <option name="PACKAGE_NAME" value="test.com.elsys" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.TriangleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.getArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1va_zad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.TriangleTest" />
+      <option name="METHOD_NAME" value="getArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.getPerimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1va_zad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.TriangleTest" />
+      <option name="METHOD_NAME" value="getPerimeter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.Test" />
+      <item itemvalue="JUnit.TriangleTest.getPerimeter" />
+      <item itemvalue="JUnit.TriangleTest.getArea" />
+      <item itemvalue="JUnit.RectangleTest.getPerimeter" />
+      <item itemvalue="JUnit.RectangleTest.getArea" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TriangleTest.getArea" />
+        <item itemvalue="JUnit.TriangleTest.getPerimeter" />
+        <item itemvalue="JUnit.RectangleTest.getArea" />
+        <item itemvalue="JUnit.RectangleTest.getPerimeter" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2602e2bb-48cc-4d8b-9822-93a738aee632" name="Default Changelist" comment="" />
+      <created>1582116124600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582116124600</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="126" width="1559" height="884" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582718499331">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="361" y="137" width="1559" height="884" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582120493590" />
+    <state x="361" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.948@70.27.1850.948" timestamp="1582718499331" />
+    <state x="873" y="311" width="525" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582718495773">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="873" y="311" width="525" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog/70.27.1850.948@70.27.1850.948" timestamp="1582718495773" />
+    <state x="748" y="408" width="494" height="192" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582730507697">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="748" y="408" width="494" height="192" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/70.27.1850.948@70.27.1850.948" timestamp="1582730507697" />
+    <state x="768" y="252" width="424" height="520" key="FileChooserDialogImpl" timestamp="1582717558009">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="768" y="252" width="424" height="520" key="FileChooserDialogImpl/70.27.1850.948@70.27.1850.948" timestamp="1582717558009" />
+    <state width="1804" height="216" key="GridCell.Tab.0.bottom" timestamp="1582726040629">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533596" />
+    <state width="1804" height="216" key="GridCell.Tab.0.bottom/70.27.1850.948@70.27.1850.948" timestamp="1582726040629" />
+    <state width="1804" height="216" key="GridCell.Tab.0.center" timestamp="1582726040628">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533593" />
+    <state width="1804" height="216" key="GridCell.Tab.0.center/70.27.1850.948@70.27.1850.948" timestamp="1582726040628" />
+    <state width="1804" height="216" key="GridCell.Tab.0.left" timestamp="1582726040623">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533592" />
+    <state width="1804" height="216" key="GridCell.Tab.0.left/70.27.1850.948@70.27.1850.948" timestamp="1582726040623" />
+    <state width="1804" height="216" key="GridCell.Tab.0.right" timestamp="1582726040628">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533595" />
+    <state width="1804" height="216" key="GridCell.Tab.0.right/70.27.1850.948@70.27.1850.948" timestamp="1582726040628" />
+    <state width="1774" height="293" key="GridCell.Tab.1.bottom" timestamp="1582120533601">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533601" />
+    <state width="1774" height="293" key="GridCell.Tab.1.center" timestamp="1582120533598">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533598" />
+    <state width="1774" height="293" key="GridCell.Tab.1.left" timestamp="1582120533597">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533597" />
+    <state width="1774" height="293" key="GridCell.Tab.1.right" timestamp="1582120533599">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1774" height="293" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582120533599" />
+    <state x="345" y="27" width="1575" height="948" key="SettingsEditor" timestamp="1582725964355">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="345" y="27" width="1575" height="1053" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582116267872" />
+    <state x="345" y="27" width="1575" height="948" key="SettingsEditor/70.27.1850.948@70.27.1850.948" timestamp="1582725964355" />
+    <state x="662" y="400" width="646" height="216" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582717559545">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="662" y="400" width="646" height="216" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1850.948@70.27.1850.948" timestamp="1582717559545" />
+    <state x="769" y="203" width="539" height="603" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582722987957">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="769" y="203" width="539" height="603" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.27.1850.948@70.27.1850.948" timestamp="1582722987957" />
+    <state x="659" y="226" key="run.anything.popup" timestamp="1582718155056">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="659" y="226" key="run.anything.popup/70.27.1850.948@70.27.1850.948" timestamp="1582718155056" />
+    <state x="386" y="27" width="1214" height="944" key="search.everywhere.popup" timestamp="1582725949733">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="386" y="27" width="1214" height="944" key="search.everywhere.popup/70.27.1850.948@70.27.1850.948" timestamp="1582725949733" />
+  </component>
+</project>
