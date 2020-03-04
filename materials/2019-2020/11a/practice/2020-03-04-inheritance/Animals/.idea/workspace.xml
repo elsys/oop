@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76c87c0a-0e9c-4660-988f-247f3c0d750a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YfFnTaRc3mVeJrZkwFmpxjQysh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.AnimalTest">
+    <configuration name="AnimalTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.AnimalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhaleTest.swim" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.WhaleTest" />
+      <option name="METHOD_NAME" value="swim" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.AnimalTest" />
+        <item itemvalue="Android JUnit.WhaleTest.swim" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76c87c0a-0e9c-4660-988f-247f3c0d750a" name="Default Changelist" comment="" />
+      <created>1583325908873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583325908873</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="162" width="847" height="684" key="#Project_Structure" timestamp="1583325961494">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="590" y="162" width="847" height="684" key="#Project_Structure/70.27.1850.948@70.27.1850.948" timestamp="1583325961494" />
+    <state x="453" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583329021678">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="453" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.948@70.27.1850.948" timestamp="1583329021678" />
+    <state x="803" y="212" width="374" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1583329404416">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="803" y="212" width="374" height="584" key="#com.intellij.ide.util.MemberChooser/70.27.1850.948@70.27.1850.948" timestamp="1583329404416" />
+    <state x="723" y="282" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583329386518">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="723" y="282" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/70.27.1850.948@70.27.1850.948" timestamp="1583329386518" />
+    <state x="728" y="250" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583326889283">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="728" y="250" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.948@70.27.1850.948" timestamp="1583326889283" />
+    <state width="1804" height="241" key="GridCell.Tab.0.bottom" timestamp="1583329638645">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1804" height="241" key="GridCell.Tab.0.bottom/70.27.1850.948@70.27.1850.948" timestamp="1583329638645" />
+    <state width="1804" height="241" key="GridCell.Tab.0.center" timestamp="1583329638644">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1804" height="241" key="GridCell.Tab.0.center/70.27.1850.948@70.27.1850.948" timestamp="1583329638644" />
+    <state width="1804" height="241" key="GridCell.Tab.0.left" timestamp="1583329638644">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1804" height="241" key="GridCell.Tab.0.left/70.27.1850.948@70.27.1850.948" timestamp="1583329638644" />
+    <state width="1804" height="241" key="GridCell.Tab.0.right" timestamp="1583329638644">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state width="1804" height="241" key="GridCell.Tab.0.right/70.27.1850.948@70.27.1850.948" timestamp="1583329638644" />
+    <state x="667" y="396" width="636" height="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583328245393">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="667" y="396" width="636" height="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1850.948@70.27.1850.948" timestamp="1583328245393" />
+    <state x="769" y="203" width="442" height="603" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583329388415">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="769" y="203" width="442" height="603" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.27.1850.948@70.27.1850.948" timestamp="1583329388415" />
+    <state x="658" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1583329177068">
+      <screen x="70" y="27" width="1850" height="948" />
+    </state>
+    <state x="658" y="233" width="672" height="678" key="search.everywhere.popup/70.27.1850.948@70.27.1850.948" timestamp="1583329177068" />
+  </component>
+</project>
