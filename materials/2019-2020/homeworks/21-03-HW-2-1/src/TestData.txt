@@ -1,0 +1,17 @@
+Bob,red,3
+Jo,brown,5
+Steve,red,2
+stop
+nuts 10 10
+mcburger 10 10
+cake 10 10
+cake 10 10
+nuts 10 10
+nuts 10 10
+nuts 10 10
+mcburger 10 10
+cake 10 10
+cake 10 10
+nuts 10 10
+nuts 10 10
+stop
