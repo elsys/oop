@@ -6,7 +6,7 @@ public class Student implements Comparable<Student> {
     private String name;
     private int number;
     private int grade;
-    private ArrayList<Double> grades;
+    private ArrayList<Double> marks = new ArrayList<>();
 
     Student(String name, int number, int grade) {
         this.name = name;
@@ -26,8 +26,20 @@ public class Student implements Comparable<Student> {
         return grade;
     }
 
-    public ArrayList<Double> getGrades() {
-        return grades;
+    public ArrayList<Double> getMarks() {
+        return marks;
+    }
+
+    public void addMark(double mark) {
+        marks.add(mark);
+    }
+
+    public double getAverageMark() {
+        double sum = 0;
+        for (double mark : marks) {
+            sum += mark;
+        }
+        return sum / marks.size();
     }
 
     @Override

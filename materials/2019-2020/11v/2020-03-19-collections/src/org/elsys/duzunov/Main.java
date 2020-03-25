@@ -4,9 +4,46 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 
 public class Main {
+    private static ArrayList<Student> findGrade(
+            ArrayList<ArrayList<Student>> school,
+            int grade
+    ) {
+        for (ArrayList<Student> group : school) {
+            if (group.get(0).getGrade() == grade) {
+                return group;
+            }
+        }
+
+        return null;
+    }
+
+    private static ArrayList<ArrayList<Student>> groupByGrade(
+            List<Student> students
+    ) {
+        ArrayList<ArrayList<Student>> grades = new ArrayList<>();
+
+        for (Student student : students) {
+            ArrayList<Student> grade = findGrade(grades, student.getGrade());
+            if (grade == null) {
+                ArrayList<Student> newGrade = new ArrayList<>();
+                newGrade.add(student);
+                grades.add(newGrade);
+            } else {
+                grade.add(student);
+            }
+        }
+
+        for (ArrayList<Student> grade : grades) {
+            grade.sort(new SortByAverageMark());
+        }
+
+        return grades;
+    }
+
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<>();
         strings.add("a1");
@@ -75,14 +112,37 @@ public class Main {
             System.out.println(string);
         }
 
+        Student yoan = new Student("Yoan", 15, 11);
+        yoan.addMark(6);
+        yoan.addMark(4);
+
+        Student ivan = new Student("Ivan", 13, 11);
+        ivan.addMark(6);
+        ivan.addMark(4);
+        ivan.addMark(3);
+
+        Student petar = new Student("Petar", 10, 10);
+        petar.addMark(5);
+        petar.addMark(4);
+
         ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student("Yoan", 15, 11));
-        students.add(new Student("Ivan", 13, 11));
-        students.add(new Student("Petar", 10, 11));
+        students.add(yoan);
+        students.add(ivan);
+        students.add(petar);
 
         Collections.sort(students);
         for (Student student : students) {
             System.out.println(student.getName());
+        }
+
+        ArrayList<ArrayList<Student>> grades = groupByGrade(students);
+        for (var grade : grades) {
+            System.out.println("Grade " + grade.get(0).getGrade() + ":");
+            for (var student : grade) {
+                System.out.println(
+                        student.getName() + ", " + student.getAverageMark()
+                );
+            }
         }
     }
 }
