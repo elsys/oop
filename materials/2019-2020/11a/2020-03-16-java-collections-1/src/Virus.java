@@ -1,5 +1,5 @@
 public class Virus implements Comparable {
-    public String name;
+    public String name = "";
 
     @Override
     public boolean equals(Object o) {
@@ -29,4 +29,11 @@ public class Virus implements Comparable {
     /*public boolean equals(Virus v) {
         return true;
     }*/
+
+    @Override
+    public String toString() {
+        return "Virus{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
