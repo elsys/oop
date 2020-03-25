@@ -33,6 +33,23 @@ public class Main {
         kalas.add(k2);
 
         printList(kalas);
+
+        /*List<Integer> moreNumbers = new ArrayList<>();
+        List<Integer> moreNumbers = new LinkedList<>();
+        Set<Integer> moreNumbers = new HashSet<>();
+        Set<Integer> moreNumbers = new TreeSet<>();
+        Map<String, Integer> moreNumbers = new HashMap();
+        Map<String, Integer> moreNumbers = new TreeMap();*/
+
+        System.out.println("==============");
+        Map<String, Kalata> kalas2 = new HashMap<>();
+        kalas2.put("purvi", new Kalata());
+        kalas2.put("vtori", new Kalata());
+
+        //System.out.println(kalas2.get(new Kalata()));
+        //System.out.println(kalas2.get(new Kalata()));
+
+        printList(kalas2.entrySet());
     }
 
     static void printList(Iterable list) {
