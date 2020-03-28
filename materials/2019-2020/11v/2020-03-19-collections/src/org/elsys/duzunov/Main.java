@@ -6,39 +6,24 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class Main {
-    private static ArrayList<Student> findGrade(
-            ArrayList<ArrayList<Student>> school,
-            int grade
-    ) {
-        for (ArrayList<Student> group : school) {
-            if (group.get(0).getGrade() == grade) {
-                return group;
-            }
-        }
-
-        return null;
-    }
-
-    private static ArrayList<ArrayList<Student>> groupByGrade(
+    private static TreeMap<Integer, TreeSet<Student>> groupByGrade(
             List<Student> students
     ) {
-        ArrayList<ArrayList<Student>> grades = new ArrayList<>();
+        TreeMap<Integer, TreeSet<Student>> grades = new TreeMap<>();
 
         for (Student student : students) {
-            ArrayList<Student> grade = findGrade(grades, student.getGrade());
+            TreeSet<Student> grade = grades.get(student.getGrade());
             if (grade == null) {
-                ArrayList<Student> newGrade = new ArrayList<>();
+                var newGrade = new TreeSet<>(new SortByAverageMark());
                 newGrade.add(student);
-                grades.add(newGrade);
+                grades.put(student.getGrade(), newGrade);
             } else {
                 grade.add(student);
             }
-        }
-
-        for (ArrayList<Student> grade : grades) {
-            grade.sort(new SortByAverageMark());
         }
 
         return grades;
@@ -125,20 +110,25 @@ public class Main {
         petar.addMark(5);
         petar.addMark(4);
 
+        Student yordan = new Student("Yordan", 10, 9);
+        yordan.addMark(5);
+        yordan.addMark(4);
+
         ArrayList<Student> students = new ArrayList<>();
         students.add(yoan);
         students.add(ivan);
         students.add(petar);
+        students.add(yordan);
 
         Collections.sort(students);
         for (Student student : students) {
             System.out.println(student.getName());
         }
 
-        ArrayList<ArrayList<Student>> grades = groupByGrade(students);
-        for (var grade : grades) {
-            System.out.println("Grade " + grade.get(0).getGrade() + ":");
-            for (var student : grade) {
+        TreeMap<Integer, TreeSet<Student>> grades = groupByGrade(students);
+        for (var grade : grades.entrySet()) {
+            System.out.println("Grade " + grade.getKey() + ":");
+            for (var student : grade.getValue()) {
                 System.out.println(
                         student.getName() + ", " + student.getAverageMark()
                 );

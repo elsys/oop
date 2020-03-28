@@ -43,6 +43,16 @@ public class Student implements Comparable<Student> {
     }
 
     @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return o instanceof Student && compareTo((Student) o) == 0;
+    }
+
+    @Override
     public int compareTo(Student o) {
         return getName().compareTo(o.getName());
     }
