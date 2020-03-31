@@ -8,7 +8,7 @@ public class Student implements Comparable<Student> {
     private int grade;
     private ArrayList<Double> marks = new ArrayList<>();
 
-    Student(String name, int number, int grade) {
+    public Student(String name, int number, int grade) {
         this.name = name;
         this.number = number;
         this.grade = grade;
