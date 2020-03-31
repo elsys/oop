@@ -3,7 +3,7 @@
 
 Да се реализира клас `Rating`, който описва алгоритъм за класиране на списък от
 кандидати. Класът да поддържа следните операции:
-* `public void addDataSource(List<String> candidates)` - задава списък от
+* `public void setDataSource(List<String> candidates)` - задава списък от
 имена `candidates`
 * `public ArrayList<String> top(int n)` - връща `n`-те най-добри кандидати
 според алгоритъма
