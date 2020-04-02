@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Rating {
-    private List<String> dataSource;
+    private ArrayList<String> dataSource;
 
     public Rating(List<String> candidates) {
         setDataSource(candidates);
     }
 
     public void setDataSource(List<String> candidates) {
-        dataSource = candidates;
+        dataSource = new ArrayList<>(candidates);
     }
 
-    public List<String> getDataSource() {
+    public ArrayList<String> getDataSource() {
         return dataSource;
     }
 
