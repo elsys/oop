@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String nextToken = scanner.next();
+        String nextToken = scanner.nextLine();
         while (!nextToken.equals("stop")) {
             var student = readStudent(nextToken);
             System.out.println(student.toString());
-            nextToken = scanner.next();
+            nextToken = scanner.nextLine();
         }
     }
 
