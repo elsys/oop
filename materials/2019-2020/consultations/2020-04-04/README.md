@@ -1,4 +1,4 @@
-# Структури от данни в Java (Collections)
+# Упражнение върху наследяване, полиморфизъм и колекции в Java
 
 ## Smart City Hub
 
@@ -19,8 +19,6 @@
 Те трябва да имплементират интерфейса `SmartDevice`:
 
 ```java
-package bg.sofia.uni.fmi.mjt.smartcity.device;
-
 public interface SmartDevice {
     /**
      * Returns the ID of the device.
@@ -61,8 +59,6 @@ public interface SmartDevice {
 Типовете устройства представляват `enum` със стойности `TRAFFIC_LIGHT`, `LAMP` и `CAMERA`.
 
 ```java
-package bg.sofia.uni.fmi.mjt.smartcity.enums;
-
 public enum DeviceType {
     TRAFFIC_LIGHT("TFL"),
     LAMP("LM"),
@@ -90,8 +86,6 @@ ID-то на всяко устройство се конструира по сл
 Създайте клас `SmartCityHub`:
 
 ```java
-package bg.sofia.uni.fmi.mjt.smartcity.hub;
-
 public class SmartCityHub {
 
     public SmartCityHub() {
