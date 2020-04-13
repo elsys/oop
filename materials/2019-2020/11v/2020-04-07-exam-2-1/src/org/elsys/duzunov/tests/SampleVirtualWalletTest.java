@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SampleVirtualWalletTest {
@@ -70,7 +71,11 @@ public class SampleVirtualWalletTest {
     @Test
     public void paymentFailsWhenNullPaymentInfoIsPassed() {
         assertTrue(wallet.registerCard(standardCard));
+        assertTrue(wallet.feed(standardCard, LARGE_FEED_AMOUNT));
         assertFalse(wallet.executePayment(standardCard, null));
+
+        Card card = wallet.getCardByName(GOLDEN_CARD);
+        assertEquals(LARGE_FEED_AMOUNT, card.getAmount(), DELTA);
     }
 
     @Test
@@ -79,18 +84,24 @@ public class SampleVirtualWalletTest {
         assertTrue(wallet.feed(goldenCard, LARGE_FEED_AMOUNT));
         assertFalse(wallet.executePayment(goldenCard, negativeCostInfo));
 
-        Card card  = wallet.getCardByName(GOLDEN_CARD);
+        Card card = wallet.getCardByName(STANDARD_CARD);
         assertEquals(LARGE_FEED_AMOUNT, card.getAmount(), DELTA);
     }
 
     @Test
     public void feedFailsWhenUnknownCardIsPassed() {
         assertFalse(wallet.feed(unknownCard, LARGE_FEED_AMOUNT));
+
+        assertNull(wallet.getCardByName(UNKNOWN_CARD));
+        assertEquals(0, unknownCard.getAmount(), DELTA);
     }
 
     @Test
     public void feedFailsWhenNegativeAmountIsPassed() {
         assertTrue(wallet.registerCard(standardCard));
         assertFalse(wallet.feed(standardCard, NEGATIVE_FEED_AMOUNT));
+
+        Card card = wallet.getCardByName(STANDARD_CARD);
+        assertEquals(0, card.getAmount(), DELTA);
     }
 }
