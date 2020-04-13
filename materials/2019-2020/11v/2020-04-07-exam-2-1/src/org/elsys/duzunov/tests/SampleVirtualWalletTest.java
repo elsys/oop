@@ -74,7 +74,7 @@ public class SampleVirtualWalletTest {
         assertTrue(wallet.feed(standardCard, LARGE_FEED_AMOUNT));
         assertFalse(wallet.executePayment(standardCard, null));
 
-        Card card = wallet.getCardByName(GOLDEN_CARD);
+        Card card = wallet.getCardByName(STANDARD_CARD);
         assertEquals(LARGE_FEED_AMOUNT, card.getAmount(), DELTA);
     }
 
@@ -84,7 +84,7 @@ public class SampleVirtualWalletTest {
         assertTrue(wallet.feed(goldenCard, LARGE_FEED_AMOUNT));
         assertFalse(wallet.executePayment(goldenCard, negativeCostInfo));
 
-        Card card = wallet.getCardByName(STANDARD_CARD);
+        Card card = wallet.getCardByName(GOLDEN_CARD);
         assertEquals(LARGE_FEED_AMOUNT, card.getAmount(), DELTA);
     }
 
