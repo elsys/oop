@@ -44,11 +44,34 @@ public class Main {
         printCollection(integers);
         List<String> strings = Arrays.asList("one", "two", "three");
         printCollection(strings);
+
+        List<Long> longs = Arrays.asList(9000000000000000000L, 2L, 3L);
+        System.out.println(sumNumbers(longs));
+
+        addNumbers(integers);
+        List<Number> numbers = new ArrayList<>();
+        addNumbers(numbers);
+        List<Object> objects = new ArrayList<>();
+        addNumbers(objects);
     }
 
     private static void printCollection(Collection<?> c) {
         for (Object e : c) {
             System.out.println(e);
+        }
+    }
+
+    private static double sumNumbers(List<? extends Number> numbers) {
+       double sum = 0;
+       for (Number number : numbers) {
+           sum += number.doubleValue();
+       }
+       return sum;
+    }
+
+    private static void addNumbers(List<? super Integer> list) {
+        for (int i = 0; i < 10; ++i) {
+            list.add(i);
         }
     }
 }
