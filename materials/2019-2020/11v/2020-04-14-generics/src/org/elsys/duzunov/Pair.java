@@ -4,13 +4,15 @@ public class Pair<K, V> {
     private K key;
     private V value;
 
-    // Generic constructor
+    // Генеричен конструктор (Generic constructor),
+    // използващ типовите параметри на класа
     public Pair(K key, V value) {
         this.key = key;
         this.value = value;
     }
 
-    // Generic methods
+    // Генерични методи (Generic methods),
+    // използващи типовите параметри на класа
     public K getKey() {
         return key;
     }
