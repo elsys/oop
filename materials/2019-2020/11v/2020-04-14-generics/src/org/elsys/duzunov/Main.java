@@ -48,19 +48,33 @@ public class Main {
         List<Long> longs = Arrays.asList(9000000000000000000L, 2L, 3L);
         System.out.println(sumNumbers(longs));
 
-        addNumbers(integers);
+        ArrayList<Integer> integerArrayList = new ArrayList<>();
+        addNumbers(integerArrayList);
         List<Number> numbers = new ArrayList<>();
         addNumbers(numbers);
         List<Object> objects = new ArrayList<>();
         addNumbers(objects);
     }
 
+    // Неограничен wildcard (?) - означава "който и да е тип".
+    // <?> е същото като <? extends Object>, защото "който и да е тип"
+    // наследява Object.
+    // Използва се, когато:
+    // - можем да имплементираме исканата функционалност само чрез методите на
+    // Object.
+    // - при имплементиране на функционалността не се интересуваме от конкретния
+    // подаден тип, а единствено от "wrapper" типа. Например, ако имаме List<?>
+    // и искаме да напишем метод който проверява дали списък има повече от 100
+    // елемента, то се интересуваме единствено от дължината на списъка (методът
+    // size), не и от конкретния тип на елементите в списъка.
     private static void printCollection(Collection<?> c) {
         for (Object e : c) {
             System.out.println(e);
         }
     }
 
+    // Ограничаване на wildcard отгоре. В примера с List<? extends Number>, ?
+    // може да бъде Number или всеки друг тип, наследяващ Number.
     private static double sumNumbers(List<? extends Number> numbers) {
        double sum = 0;
        for (Number number : numbers) {
@@ -69,6 +83,9 @@ public class Main {
        return sum;
     }
 
+    // Ограничаване на wildcard отдолу. В примера с List<? super Integer>, ?
+    // може да бъде Integer или всеки друг тип, за който Integer е пряк/непряк
+    // наследник. В случая това са типовете Integer, Number и Object.
     private static void addNumbers(List<? super Integer> list) {
         for (int i = 0; i < 10; ++i) {
             list.add(i);
