@@ -48,9 +48,14 @@ public final class TrendingVideo {
         String id = tokens[ID];
         String title = tokens[TITLE];
 
-        String parsedDate = tokens[PUBLISH_DATE].substring(0, tokens[PUBLISH_DATE]
-                .indexOf('T')); // 2017-11-13T17:13:01.000Z
-        LocalDate publishDate = LocalDate.parse(parsedDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        String parsedDate = tokens[PUBLISH_DATE].substring(
+                0,
+                tokens[PUBLISH_DATE].indexOf('T')
+        ); // 2017-11-13T17:13:01.000Z
+        LocalDate publishDate = LocalDate.parse(
+                parsedDate,
+                DateTimeFormatter.ofPattern("yyyy-MM-dd")
+        );
 
         Set<String> tags = Stream.of(tokens[TAGS].split("\\|"))
                 .map(s -> s.replace("\"", ""))
@@ -60,8 +65,9 @@ public final class TrendingVideo {
         long likes = Long.parseLong(tokens[LIKES]);
         long dislikes = Long.parseLong(tokens[DISLIKES]);
 
-        return new TrendingVideo(id, title, publishDate, tags, views, likes, dislikes);
-
+        return new TrendingVideo(
+                id, title, publishDate, tags, views, likes, dislikes
+        );
     }
 
     public String getId() {
