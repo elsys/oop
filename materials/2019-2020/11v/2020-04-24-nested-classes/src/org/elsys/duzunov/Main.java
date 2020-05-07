@@ -60,10 +60,22 @@ class OuterClass {
      * за пример от реалния свят)
      */
     class InnerClass {
+        int foo = 5;
+
         void bar() {
             // Може да достъпваме както статичните полета и методи
             // (дори да са private), така и нестатичните
-            System.out.println(foo);
+
+            int foo = 4;
+            // Достъп до локалната променлива foo
+            System.out.println(foo); // 4
+            // Достъп до полето foo на текущия InnerClass обект
+            System.out.println(this.foo); // 5
+            // Достъп до полето foo на текущия OuterClass обект
+            System.out.println(OuterClass.this.foo);
+            // Достъп до полето foo на новосъздаден OuterClass обект
+            System.out.println(new OuterClass(42).foo);
+
             g();
         }
     }
