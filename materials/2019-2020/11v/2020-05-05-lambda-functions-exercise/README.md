@@ -77,39 +77,39 @@ public class YouTubeTrendsExplorer {
 
 ### Методи
 
-1. Връща ID-то на *trending* видеото с най-малко харесвания
+1. Връща ID-то на *trending* видеото с най-малко харесвания.
 
    ```java
    public String findIdOfLeastLikedVideo()
    ```
 
 2. Връща ID-то на най-одобряваното *trending* видео - като от броя харесвания
-вадим броя нехаресвания
+вадим броя нехаресвания.
 
    ``` java
    public String findIdOfMostLikedLeastDislikedVideo()
    ```
 
 3. Връща списък от заглавията на трите най-гледани *trending* видеа, подредени в
-намаляващ ред на гледанията
+намаляващ ред на гледанията.
 
    ``` java
    public List<String> findDistinctTitlesOfTop3VideosByViews()
    ```
-4. Връща ID-то на видеото с най-много тагове
+4. Връща ID-то на видеото с най-много тагове.
 
    ``` java
    public String findIdOfMostTaggedVideo()
    ```
 
 5. Връща заглавието на най-рано публикуваното видео, станало *trending* преди да
-е събрало 100000 гледания
+е събрало 100000 гледания.
 
    ``` java
    public String findTitleOfFirstVideoTrendingBefore100KViews()
    ```
 
-6. Връща ID-то на видеото, което най-често е било *trending*
+6. Връща ID-то на видеото, което най-често е било *trending*.
 
    ``` java
    public String findIdOfMostTrendingVideo()
