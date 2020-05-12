@@ -4,11 +4,16 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class YouTubeTrendsExplorer {
     private final ArrayList<TrendingVideo> trendingVideos = new ArrayList<>();
@@ -75,12 +80,87 @@ public class YouTubeTrendsExplorer {
         ArrayList<TrendingVideo> sortedVideos = new ArrayList<>(uniqueVideos);
         sortedVideos.sort(viewsComparator);
 
-        ArrayList<String> top3 = new ArrayList<>();
-        Iterator<TrendingVideo> iterator = sortedVideos.iterator();
-        for (int i = 0; iterator.hasNext() && i < 3; ++i) {
-            top3.add(iterator.next().getTitle());
+//        ArrayList<String> top3 = new ArrayList<>();
+//        Iterator<TrendingVideo> iterator = sortedVideos.iterator();
+//        for (int i = 0; iterator.hasNext() && i < 3; ++i) {
+//            top3.add(iterator.next().getTitle());
+//        }
+//        return top3;
+
+        List<TrendingVideo> top3 = take(sortedVideos, 3);
+        return map(top3, TrendingVideo::getTitle);
+    }
+
+    public String findIdOfMostTaggedVideo() {
+        return findMaximum(
+                trendingVideos,
+                Comparator.comparingInt(video -> video.getTags().size())
+        ).getId();
+    }
+
+    public String findTitleOfFirstVideoTrendingBefore100KViews() {
+        var lessThan100KViews =
+                filter(trendingVideos, video -> video.getViews() < 100_000);
+
+        return findMinimum(
+                lessThan100KViews,
+                Comparator.comparing(TrendingVideo::getPublishDate)
+        ).getTitle();
+    }
+
+    public String findIdOfMostTrendingVideo() {
+        HashMap<String, Integer> trendingVideosCountById =
+                groupBy(
+                        trendingVideos,
+                        TrendingVideo::getId,
+                        video -> 1,
+                        Integer::sum
+                );
+
+        return findMaximum(
+                trendingVideosCountById.entrySet(),
+                Comparator.comparingInt(Map.Entry::getValue)
+        ).getKey();
+    }
+
+    private <T, K, V> HashMap<K, V> groupBy(Iterable<T> elements,
+                                            Function<T, K> keyMapper,
+                                            Function<T, V> valueMapper,
+                                            BiFunction<V, V, V> combiner) {
+        HashMap<K, V> groups = new HashMap<>();
+        for (T element : elements) {
+            K key = keyMapper.apply(element);
+            V value = valueMapper.apply(element);
+            groups.merge(key, value, combiner);
         }
-        return top3;
+        return groups;
+    }
+
+    private <T> List<T> filter(Iterable<T> elements, Predicate<T> tester) {
+        ArrayList<T> filtered = new ArrayList<>();
+        for (T element : elements) {
+            if (tester.test(element)) {
+                filtered.add(element);
+            }
+        }
+        return filtered;
+    }
+
+    private <T, R> List<R> map(Iterable<T> elements, Function<T, R> mapper) {
+        ArrayList<R> mapped = new ArrayList<>();
+        for (T element : elements) {
+            mapped.add(mapper.apply(element));
+        }
+        return mapped;
+    }
+
+    private <T> List<T> take(Iterable<T> elements, int n) {
+        ArrayList<T> firstN = new ArrayList<>();
+        Iterator<T> iterator = elements.iterator();
+        for (int i = 0; iterator.hasNext() && i < n; ++i) {
+            firstN.add(iterator.next());
+        }
+        return firstN;
     }
 
     private <T> T findMinimum(Iterable<T> elements, Comparator<T> comparator) {

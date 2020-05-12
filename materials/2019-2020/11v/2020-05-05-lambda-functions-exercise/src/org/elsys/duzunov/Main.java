@@ -16,9 +16,9 @@ public class Main {
             System.out.println(explorer.findIdOfLeastLikedVideo());
             System.out.println(explorer.findIdOfMostLikedLeastDislikedVideo());
             System.out.println(explorer.findDistinctTitlesOfTop3VideosByViews());
-//            System.out.println(explorer.findIdOfMostTaggedVideo());
-//            System.out.println(explorer.findTitleOfFirstVideoTrendingBefore100KViews());
-//            System.out.println(explorer.findIdOfMostTrendingVideo());
+            System.out.println(explorer.findIdOfMostTaggedVideo());
+            System.out.println(explorer.findTitleOfFirstVideoTrendingBefore100KViews());
+            System.out.println(explorer.findIdOfMostTrendingVideo());
         } catch (IOException exception) {
             System.out.println("Could not load videos dataset.");
         }
