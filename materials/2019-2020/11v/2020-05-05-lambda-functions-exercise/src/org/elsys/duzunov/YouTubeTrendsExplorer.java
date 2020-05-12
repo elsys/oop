@@ -33,6 +33,9 @@ public class YouTubeTrendsExplorer {
     }
 
     public String findIdOfLeastLikedVideo() {
+//        return findIdOfVideoExtremum(
+//                (video1, video2) -> video1.getLikes() < video2.getLikes()
+//        );
 //        return findMinimum(
 //                trendingVideos,
 //                (video1, video2) ->
@@ -50,6 +53,12 @@ public class YouTubeTrendsExplorer {
     }
 
     public String findIdOfMostLikedLeastDislikedVideo() {
+//        return findIdOfVideoExtremum(
+//                (video1, video2) ->
+//                        video1.getLikes() - video1.getDislikes() >
+//                                video2.getLikes() - video2.getDislikes()
+//        );
+
         return findMaximum(
                 trendingVideos,
                 Comparator.comparingLong(
