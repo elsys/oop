@@ -38,19 +38,6 @@ public class YouTubeTrendsExplorer {
     }
 
     public String findIdOfLeastLikedVideo() {
-//        return findIdOfVideoExtremum(
-//                (video1, video2) -> video1.getLikes() < video2.getLikes()
-//        );
-//        return findMinimum(
-//                trendingVideos,
-//                (video1, video2) ->
-//                        Long.compare(video1.getLikes(), video2.getLikes())
-//        ).getId();
-//        return findMinimum(
-//                trendingVideos,
-//                Comparator.comparingLong(video -> video.getLikes())
-//        ).getId();
-
         return findMinimum(
                 trendingVideos,
                 Comparator.comparingLong(TrendingVideo::getLikes)
@@ -58,12 +45,6 @@ public class YouTubeTrendsExplorer {
     }
 
     public String findIdOfMostLikedLeastDislikedVideo() {
-//        return findIdOfVideoExtremum(
-//                (video1, video2) ->
-//                        video1.getLikes() - video1.getDislikes() >
-//                                video2.getLikes() - video2.getDislikes()
-//        );
-
         return findMaximum(
                 trendingVideos,
                 Comparator.comparingLong(
@@ -74,18 +55,11 @@ public class YouTubeTrendsExplorer {
 
     public List<String> findDistinctTitlesOfTop3VideosByViews() {
         Comparator<TrendingVideo> viewsComparator =
-                Comparator.comparingLong(TrendingVideo::getViews);
+                Comparator.comparingLong(TrendingVideo::getViews).reversed();
         trendingVideos.sort(viewsComparator);
         HashSet<TrendingVideo> uniqueVideos = new HashSet<>(trendingVideos);
         ArrayList<TrendingVideo> sortedVideos = new ArrayList<>(uniqueVideos);
         sortedVideos.sort(viewsComparator);
-
-//        ArrayList<String> top3 = new ArrayList<>();
-//        Iterator<TrendingVideo> iterator = sortedVideos.iterator();
-//        for (int i = 0; iterator.hasNext() && i < 3; ++i) {
-//            top3.add(iterator.next().getTitle());
-//        }
-//        return top3;
 
         List<TrendingVideo> top3 = take(sortedVideos, 3);
         return map(top3, TrendingVideo::getTitle);
@@ -173,12 +147,6 @@ public class YouTubeTrendsExplorer {
 
     private <T> T findMaximum(Iterable<T> elements, Comparator<T> comparator) {
         return findMinimum(elements, comparator.reversed());
-    }
-
-    private String findIdOfVideoExtremum(
-            BiPredicate<TrendingVideo, TrendingVideo> tester
-    ) {
-        return findExtremum(trendingVideos, tester).getId();
     }
 
     private static <T> T findExtremum(

@@ -74,7 +74,7 @@ public class YouTubeTrendsExplorer {
 
     public List<String> findDistinctTitlesOfTop3VideosByViews() {
         Comparator<TrendingVideo> viewsComparator =
-                Comparator.comparingLong(TrendingVideo::getViews);
+                Comparator.comparingLong(TrendingVideo::getViews).reversed();
         trendingVideos.sort(viewsComparator);
         HashSet<TrendingVideo> uniqueVideos = new HashSet<>(trendingVideos);
         ArrayList<TrendingVideo> sortedVideos = new ArrayList<>(uniqueVideos);
