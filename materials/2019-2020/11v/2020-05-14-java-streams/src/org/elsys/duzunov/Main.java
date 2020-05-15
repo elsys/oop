@@ -1,13 +1,7 @@
 package org.elsys.duzunov;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
-import java.util.Random;
+import java.util.*;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
@@ -172,11 +166,27 @@ public class Main {
                 .mapToInt(Person::getAge)
                 .reduce((currentAgeSum, age) -> currentAgeSum + age);
 
+        boolean hasAgeSum = maybeAgeSum.isPresent();
+//        maybeAgeSum.ifPresent(System.out::println);
+
+        int ageSum = maybeAgeSum.getAsInt();
+        // може да хвърли NoSuchElementException, ако няма стойност
+
+        ageSum = maybeAgeSum.orElse(0);
+
+        maybeAgeSum.orElseThrow(NoSuchElementException::new);
+
+        int result = Stream.of(1, 2, 3, 4, 5)
+                .filter(i -> i > 10)
+                .findAny()
+                .orElse(-1);
+//        System.out.println(result); // -1
+
         maybeAgeSum = personList.stream()
                 .mapToInt(Person::getAge)
                 .reduce(Integer::sum);
 
-        int ageSum = personList.stream()
+        ageSum = personList.stream()
                 .mapToInt(Person::getAge)
                 .reduce(0, Integer::sum);
 
@@ -204,6 +214,16 @@ public class Main {
                 .mapToInt(Person::getAge)
                 .max();
 
+        long count = personList.stream()
+                .filter(person -> person.getAge() >= 18)
+                .count();
+
+        List<String> strings = List.of("telenor", "mtel", "vivacom", "a1");
+        String concatenated = strings.stream()
+                .reduce("", String::concat);
+        // Бавно (O(n^2)), тъй като при всяка конкатенация копираме досега
+        // акумулирания низ
+
         // collect (mutable reduce)
         List<Integer> randomIntegers = new Random().ints()
                 .limit(10)
@@ -213,9 +233,24 @@ public class Main {
                         ArrayList::addAll // combiner
                 );
 
-        List<Integer> list = Stream.of(1, 2, 3, 4, 5)
+        List<Integer> listOfIntegers = Stream.of(1, 2, 3, 4, 5)
                 .collect(Collectors.toList());
-//        System.out.println(list); // [1, 2, 3, 4, 5]
+
+        String names = personList.stream()
+                .map(Person::getName)
+                .collect(Collectors.joining(", "));
+
+        Map<Integer, List<Person>> peopleByAge = personList.stream()
+                .collect(Collectors.groupingBy(Person::getAge));
+
+        // Операции, прекъсващи обработката на елементите на поток (полезни
+        // за работа с крайни части от безкрайни потоци):
+        // findFirst() – връща първия елемент на потока
+        // findAny() – връща произволен елемент от потока
+        // allMatch(T -> boolean) – дали всички елементи отговарят на дадено условие
+        // anyMatch(T -> boolean) – дали някой елемент отговаря на дадено условие
+        // noneMatch(T -> boolean) - дали никой от елементите не отговаря на дадено условие
+        // limit(int n) – връща първите n елемента (междинна операция)
     }
 
     private static int multiplyBy2(int n) {
