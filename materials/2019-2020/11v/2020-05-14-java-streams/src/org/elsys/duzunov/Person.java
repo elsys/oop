@@ -2,7 +2,7 @@ package org.elsys.duzunov;
 
 import java.time.LocalDate;
 
-public class Person {
+public class Person implements Comparable<Person> {
     public enum Gender {
         MALE("male"),
         FEMALE("female");
@@ -72,5 +72,10 @@ public class Person {
                         getEmailAddress()
                 )
         );
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return this.getName().compareTo(o.getName());
     }
 }

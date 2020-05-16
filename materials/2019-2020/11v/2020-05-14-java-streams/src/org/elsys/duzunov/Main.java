@@ -1,7 +1,15 @@
 package org.elsys.duzunov;
 
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.NoSuchElementException;
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
+import java.util.Random;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
@@ -147,27 +155,33 @@ public class Main {
         // Трансформиращи (mapping) операции
         Stream<String> personNames = personList.stream()
                 .map(Person::getName);
+        print(personNames);
+
         IntStream personAges = personList.stream()
                 .mapToInt(Person::getAge);
+        print(personAges);
 
         // Сортиращи операции
         // спрямо естествената наредба (natural ordering)
         Stream<Person> sortedPeople = personList.stream()
                 .sorted();
+        print(sortedPeople.map(Person::getName));
 
         // спрямо компаратор
         Stream<Person> sortedPeopleByAge = personList.stream()
                 .sorted(Comparator.comparingInt(Person::getAge));
+        print(sortedPeopleByAge.map(Person::getName));
 
         // Терминиращи операции
-//        personList.stream().forEach(Person::print);
+        personList.stream().forEach(Person::print);
 
         OptionalInt maybeAgeSum = personList.stream()
                 .mapToInt(Person::getAge)
-                .reduce((currentAgeSum, age) -> currentAgeSum + age);
+                .reduce((currentAgeSum, age) -> currentAgeSum + age); // (T, T) -> T ((int, int) -> int)
 
         boolean hasAgeSum = maybeAgeSum.isPresent();
-//        maybeAgeSum.ifPresent(System.out::println);
+        System.out.println(hasAgeSum);
+        maybeAgeSum.ifPresent(System.out::println);
 
         int ageSum = maybeAgeSum.getAsInt();
         // може да хвърли NoSuchElementException, ако няма стойност
@@ -180,7 +194,7 @@ public class Main {
                 .filter(i -> i > 10)
                 .findAny()
                 .orElse(-1);
-//        System.out.println(result); // -1
+        System.out.println(result); // -1
 
         maybeAgeSum = personList.stream()
                 .mapToInt(Person::getAge)
@@ -193,7 +207,7 @@ public class Main {
         ageSum = personList.stream()
                 .reduce(
                         0, // начална стойност
-                        (currentAgeSum, person) -> currentAgeSum + person.getAge(), // accumulator
+                        (currentAgeSum, person) -> currentAgeSum + person.getAge(), // accumulator - (R, T) -> R ((Integer, Person) -> Integer)
                         (left, right) -> left + right // combiner - за комбиниране на резултатите от паралелни изчисления
                 );
 
@@ -205,24 +219,29 @@ public class Main {
         OptionalDouble averageAge = personList.stream()
                 .mapToInt(Person::getAge)
                 .average();
+        System.out.println(averageAge.getAsDouble());
 
         OptionalInt minAge = personList.stream()
                 .mapToInt(Person::getAge)
                 .min();
+        System.out.println(minAge.getAsInt());
 
         OptionalInt maxAge = personList.stream()
                 .mapToInt(Person::getAge)
                 .max();
+        System.out.println(maxAge.getAsInt());
 
         long count = personList.stream()
                 .filter(person -> person.getAge() >= 18)
                 .count();
+        System.out.println(count);
 
         List<String> strings = List.of("telenor", "mtel", "vivacom", "a1");
         String concatenated = strings.stream()
                 .reduce("", String::concat);
         // Бавно (O(n^2)), тъй като при всяка конкатенация копираме досега
         // акумулирания низ
+        System.out.println(concatenated);
 
         // collect (mutable reduce)
         List<Integer> randomIntegers = new Random().ints()
@@ -232,16 +251,26 @@ public class Main {
                         ArrayList::add, // accumulator
                         ArrayList::addAll // combiner
                 );
+        System.out.println(randomIntegers);
 
         List<Integer> listOfIntegers = Stream.of(1, 2, 3, 4, 5)
                 .collect(Collectors.toList());
+        System.out.println(listOfIntegers);
 
         String names = personList.stream()
                 .map(Person::getName)
                 .collect(Collectors.joining(", "));
+        System.out.println(names);
 
         Map<Integer, List<Person>> peopleByAge = personList.stream()
                 .collect(Collectors.groupingBy(Person::getAge));
+
+        for (var ageGroup : peopleByAge.entrySet()) {
+            var nameList = ageGroup.getValue().stream()
+                    .map(Person::getName)
+                    .collect(Collectors.toList());
+            System.out.println(ageGroup.getKey() + ": " + nameList);
+        }
 
         // Операции, прекъсващи обработката на елементите на поток (полезни
         // за работа с крайни части от безкрайни потоци):
@@ -258,22 +287,33 @@ public class Main {
     }
 
     private static <T> void print(Stream<T> stream) {
-        stream.forEach(element -> System.out.print(element + ", "));
-        System.out.println();
+        System.out.println(stream.collect(Collectors.toList()));
     }
 
     private static void print(IntStream stream) {
-        stream.forEach(element -> System.out.print(element + ", "));
-        System.out.println();
+        var list = stream.collect(
+                ArrayList::new,
+                ArrayList::add,
+                ArrayList::addAll
+        );
+        System.out.println(list);
     }
 
     private static void print(DoubleStream stream) {
-        stream.forEach(element -> System.out.print(element + ", "));
-        System.out.println();
+        var list = stream.collect(
+                ArrayList::new,
+                ArrayList::add,
+                ArrayList::addAll
+        );
+        System.out.println(list);
     }
 
     private static void print(LongStream stream) {
-        stream.forEach(element -> System.out.print(element + ", "));
-        System.out.println();
+        var list = stream.collect(
+                ArrayList::new,
+                ArrayList::add,
+                ArrayList::addAll
+        );
+        System.out.println(list);
     }
 }
