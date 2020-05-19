@@ -1,40 +1,58 @@
 package org.elsys.duzunov;
 
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class YouTubeTrendsExplorer {
-    private final ArrayList<TrendingVideo> trendingVideos = new ArrayList<>();
+    private final List<TrendingVideo> trendingVideos;
 
     /**
      * Loads the dataset from the given {@code dataInput} stream.
      */
     public YouTubeTrendsExplorer(InputStream dataInput) {
-        Scanner scanner = new Scanner(dataInput).useDelimiter("\n");
-        scanner.next();
-        while (scanner.hasNext()) {
-            String line = scanner.next();
-            trendingVideos.add(TrendingVideo.createTrendingVideo(line));
+        try (
+                BufferedReader reader =
+                     new BufferedReader(new InputStreamReader(dataInput))
+        ) {
+            trendingVideos = reader.lines()
+                    .skip(1)
+                    .map(TrendingVideo::createTrendingVideo)
+                    .collect(Collectors.toList());
+        } catch (IOException exception) {
+            throw new IllegalArgumentException(
+                    "Could not load dataset",
+                    exception
+            );
         }
+//        Scanner scanner = new Scanner(dataInput).useDelimiter("\n");
+//        scanner.next();
+//        while (scanner.hasNext()) {
+//            String line = scanner.next();
+//            trendingVideos.add(TrendingVideo.createTrendingVideo(line));
+//        }
     }
 
     /**
      * Returns all videos loaded from the dataset.
      **/
     public Collection<TrendingVideo> getTrendingVideos() {
-        return trendingVideos;
+        return Collections.unmodifiableList(trendingVideos);
     }
 
     public String findIdOfLeastLikedVideo() {

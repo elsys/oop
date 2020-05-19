@@ -32,9 +32,9 @@
 форматирани данни, може да липсват елементи, на които разчитаме, или да има
 такива, които не очакваме.
 
-Понеже целта на занятието е да разберем и упражним ламбда изразите в Java, ще
+Понеже целта на занятието е да разберем и упражним Java Stream API-то, ще
 получите [готова имплементация](src/org/elsys/duzunov/TrendingVideo.java) на
-`immutable` класа `TrendingVideo`, с метод за парсване на ред от информацията
+`immutable` класа `TrendingVideo` с метод за парсване на ред от информацията
 във файла:
 ```java
 public static TrendingVideo createTrendingVideo(String line);
@@ -47,8 +47,8 @@ public static TrendingVideo createTrendingVideo(String line);
 
 ## Статистики
 
-След като разполагаме с имплементация на този клас, можем да заредим данните в
-подходяща колекция, от която да извелчем декларативно разнообразни статистики.
+След като имаме тези обекти, можем да заредим данните в подходяща колекция, от
+която да вземем поток и декларативно да изведем разнообразни статистики.
 
 Класът, който ще предоставя API за статистиките, е `YouTubeTrendsExplorer`:
 
@@ -86,31 +86,31 @@ public class YouTubeTrendsExplorer {
 2. Връща ID-то на най-одобряваното *trending* видео - като от броя харесвания
 вадим броя нехаресвания.
 
-   ``` java
+   ```java
    public String findIdOfMostLikedLeastDislikedVideo()
    ```
 
 3. Връща списък от заглавията на трите най-гледани *trending* видеа, подредени в
 намаляващ ред на гледанията.
 
-   ``` java
+   ```java
    public List<String> findDistinctTitlesOfTop3VideosByViews()
    ```
 4. Връща ID-то на видеото с най-много тагове.
 
-   ``` java
+   ```java
    public String findIdOfMostTaggedVideo()
    ```
 
 5. Връща заглавието на най-рано публикуваното видео, станало *trending* преди да
 е събрало 100000 гледания.
 
-   ``` java
+   ```java
    public String findTitleOfFirstVideoTrendingBefore100KViews()
    ```
 
 6. Връща ID-то на видеото, което най-често е било *trending*.
 
-   ``` java
+   ```java
    public String findIdOfMostTrendingVideo()
    ```

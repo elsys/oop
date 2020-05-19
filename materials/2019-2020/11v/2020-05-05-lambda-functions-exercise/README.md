@@ -34,7 +34,7 @@
 
 Понеже целта на занятието е да разберем и упражним ламбда изразите в Java, ще
 получите [готова имплементация](src/org/elsys/duzunov/TrendingVideo.java) на
-`immutable` класа `TrendingVideo`, с метод за парсване на ред от информацията
+`immutable` класа `TrendingVideo` с метод за парсване на ред от информацията
 във файла:
 ```java
 public static TrendingVideo createTrendingVideo(String line);
@@ -86,31 +86,31 @@ public class YouTubeTrendsExplorer {
 2. Връща ID-то на най-одобряваното *trending* видео - като от броя харесвания
 вадим броя нехаресвания.
 
-   ``` java
+   ```java
    public String findIdOfMostLikedLeastDislikedVideo()
    ```
 
 3. Връща списък от заглавията на трите най-гледани *trending* видеа, подредени в
 намаляващ ред на гледанията.
 
-   ``` java
+   ```java
    public List<String> findDistinctTitlesOfTop3VideosByViews()
    ```
 4. Връща ID-то на видеото с най-много тагове.
 
-   ``` java
+   ```java
    public String findIdOfMostTaggedVideo()
    ```
 
 5. Връща заглавието на най-рано публикуваното видео, станало *trending* преди да
 е събрало 100000 гледания.
 
-   ``` java
+   ```java
    public String findTitleOfFirstVideoTrendingBefore100KViews()
    ```
 
 6. Връща ID-то на видеото, което най-често е било *trending*.
 
-   ``` java
+   ```java
    public String findIdOfMostTrendingVideo()
    ```
