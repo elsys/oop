@@ -40,12 +40,6 @@ public class YouTubeTrendsExplorer {
                     exception
             );
         }
-//        Scanner scanner = new Scanner(dataInput).useDelimiter("\n");
-//        scanner.next();
-//        while (scanner.hasNext()) {
-//            String line = scanner.next();
-//            trendingVideos.add(TrendingVideo.createTrendingVideo(line));
-//        }
     }
 
     /**
