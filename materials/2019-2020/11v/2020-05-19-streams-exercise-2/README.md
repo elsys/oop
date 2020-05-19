@@ -77,7 +77,7 @@ public class MoviesExplorer {
 1. :green_book: Намира броя на филмите, излезли на екран през `year` година.
 
    ```java
-   public int countMoviesReleasedInYear(int year)
+   public long countMoviesReleasedInYear(int year)
    ```
 
 2. :green_book: Намира **първия** (по ред) филм в `dataset`-а, който съдържа
