@@ -16,8 +16,8 @@ public final class Movie {
         this.year = year;
     }
 
-    public static Movie createMovie(String movieLine) {
-        String[] tokens = movieLine.split("/");
+    public static Movie createMovie(String line) {
+        String[] tokens = line.split("/");
         String title = parseMovieTitle(tokens[0]);
         String releaseYear = parseMovieYear(tokens[0]);
 
