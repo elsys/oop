@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class MoviesExplorer {
@@ -77,9 +78,60 @@ public class MoviesExplorer {
 //                .get()
 //                .getYear();
 
+//        return movies.stream()
+//                .map(Movie::getYear)
+//                .min(Comparator.comparingInt(year -> year))
+//                .get();
+
         return movies.stream()
-                .map(Movie::getYear)
-                .min(Comparator.comparingInt(year -> year))
+                .mapToInt(Movie::getYear)
+                .min()
+                .getAsInt();
+    }
+
+    public Collection<Movie> getAllMoviesByActor(Actor actor) {
+        return movies.stream()
+                .filter(movie -> movie.getActors().contains(actor))
+                .collect(Collectors.toList());
+    }
+
+    public Collection<Movie> getMoviesSortedByReleaseYear() {
+        return movies.stream()
+                .sorted(Comparator.comparingInt(Movie::getYear))
+                .collect(Collectors.toList());
+    }
+
+    public int findYearWithLeastNumberOfReleasedMovies() {
+//        Map<Integer, Long> moviesCountByYear = movies.stream()
+//                .collect(
+//                        Collectors.toMap(
+//                                Movie::getYear,
+//                                movie -> 1L,
+//                                Long::sum
+//                        )
+//                );
+
+        Map<Integer, Long> moviesCountByYear = movies.stream()
+                .collect(
+                        Collectors.groupingBy(
+                                Movie::getYear,
+                                Collectors.counting()
+                        )
+                );
+
+        return moviesCountByYear.entrySet().stream()
+                .min(Comparator.comparingLong(Map.Entry::getValue))
+                .get()
+                .getKey();
+    }
+
+    public Movie findMovieWithGreatestNumberOfActors() {
+        return movies.stream()
+                .max(
+                        Comparator.comparingLong(
+                                movie -> movie.getActors().size()
+                        )
+                )
                 .get();
     }
 }
