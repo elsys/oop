@@ -69,7 +69,7 @@ public class PeakStats {
 `0`, ако няма изкачен връх в интервала.
 
    ```java
-   public double averageAscentsTopN(int n);
+   public double averageAscentsInTopN(int n);
    ```
 
 3. Сред най-високите върхове има и такива, които имат относително малка

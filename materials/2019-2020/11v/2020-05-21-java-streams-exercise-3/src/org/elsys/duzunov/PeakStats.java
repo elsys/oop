@@ -28,12 +28,12 @@ public class PeakStats {
 
     /**
      * How many times in average was a peak in Top N ascended. For example,
-     * averageAscentsTopN(10) should return the average number of times a peak
+     * averageAscentsInTopN(10) should return the average number of times a peak
      * from the highest 10 has been ascended.
      *
      * @return - the first n peaks to include in the statistics
      */
-    public double averageAscentsTopN(int n) {
+    public double averageAscentsInTopN(int n) {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
