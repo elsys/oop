@@ -93,7 +93,7 @@ public class PeakStats {
    ```
 
 5. Връща списък от имената на върховете, които не са част от Хималаите (която и
-да е планина, съдържащa `'Himalaya'` в името си), подредени по изпъкналост (от
+да е планина, съдържащa `"Himalaya"` в името си), подредени по изпъкналост (от
 най-висок към най-нисък).
 
    ```java
@@ -105,5 +105,5 @@ public class PeakStats {
 няма значение коя от тях ще се върне.
 
    ```java
-   public String getRangeWithMostPeaks(int topN);
+   public String getRangeWithGreatestNumberOfPeaks(int n);
    ```

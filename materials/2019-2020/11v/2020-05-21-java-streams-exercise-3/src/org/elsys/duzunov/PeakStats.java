@@ -27,11 +27,11 @@ public class PeakStats {
     }
 
     /**
-     * How many times in average was a peak in Top N ascended. For example,
+     * How many times in average was a peak in top N ascended. For example,
      * averageAscentsInTopN(10) should return the average number of times a peak
      * from the highest 10 has been ascended.
      *
-     * @return - the first n peaks to include in the statistics
+     * @param n - the first n peaks to include in the statistics
      */
     public double averageAscentsInTopN(int n) {
         throw new UnsupportedOperationException("Method not yet implemented");
@@ -59,16 +59,18 @@ public class PeakStats {
     }
 
     /**
-     * @return - the list of peaks that are not part of the Himalayas
+     * @return - the list of names of all peaks that are not part of the
+     * Himalayas sorted by prominence in descending order
      */
     public List<String> getNonHimalayaNamesByProminence() {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     /**
-     * Returns the name of the mountain range that has the most peaks in Top N.
+     * Returns the name of the mountain range that has the greatest number of
+     * peaks in top N.
      */
-    public String getRangeWithMostPeaks(int n) {
+    public String getRangeWithGreatestNumberOfPeaks(int n) {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 }
