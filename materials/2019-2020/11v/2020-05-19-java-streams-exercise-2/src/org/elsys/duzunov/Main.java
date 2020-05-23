@@ -27,7 +27,7 @@ public class Main {
             );
             System.out.println(explorer.findMovieWithGreatestNumberOfActors());
         } catch (IOException exception) {
-            System.out.println("Could not load videos dataset.");
+            System.out.println("Could not load movies dataset.");
         }
     }
 }
