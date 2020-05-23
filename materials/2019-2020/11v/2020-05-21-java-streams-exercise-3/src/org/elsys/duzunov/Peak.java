@@ -6,7 +6,7 @@ public class Peak {
     private final double height;
     private final double prominence;
     private final String range;
-    private final int firstAscent;
+    private final int yearOfFirstAscent;
     private final int totalAscents;
 
     private Peak(int position,
@@ -14,14 +14,14 @@ public class Peak {
                  double height,
                  double prominence,
                  String range,
-                 int firstAscent,
+                 int yearOfFirstAscent,
                  int totalAscents) {
         this.position = position;
         this.name = name;
         this.height = height;
         this.prominence = prominence;
         this.range = range;
-        this.firstAscent = firstAscent;
+        this.yearOfFirstAscent = yearOfFirstAscent;
         this.totalAscents = totalAscents;
     }
 
@@ -49,8 +49,8 @@ public class Peak {
         return range;
     }
 
-    public int getFirstAscent() {
-        return firstAscent;
+    public int getYearOfFirstAscent() {
+        return yearOfFirstAscent;
     }
 
     public int getTotalAscents() {
