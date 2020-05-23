@@ -68,7 +68,7 @@ public class MoviesExplorer {
         return null;
     }
 
-    // Other methods ...
+    // Other methods...
 }
 ```
 

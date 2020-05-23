@@ -1,12 +1,7 @@
 package org.elsys.duzunov;
 
-/**
- * Representation of a peak with loaded data from the dataset. The class is
- * immutable. If you wish, you could provide suitable equals() and hashCode()
- * implementations
- */
 public class Peak {
-    private final int pos;
+    private final int position;
     private final String name;
     private final double height;
     private final double prominence;
@@ -14,9 +9,14 @@ public class Peak {
     private final int firstAscent;
     private final int totalAscents;
 
-    private Peak(int pos, String name, double height, double prominence, String range, int firstAscent,
+    private Peak(int position,
+                 String name,
+                 double height,
+                 double prominence,
+                 String range,
+                 int firstAscent,
                  int totalAscents) {
-        this.pos = pos;
+        this.position = position;
         this.name = name;
         this.height = height;
         this.prominence = prominence;
@@ -26,11 +26,11 @@ public class Peak {
     }
 
     public static Peak createPeak(String line) {
-        throw new UnsupportedOperationException("Please provide implementation");
+        throw new UnsupportedOperationException();
     }
 
-    public int getPos() {
-        return pos;
+    public int getPosition() {
+        return position;
     }
 
     public String getName() {

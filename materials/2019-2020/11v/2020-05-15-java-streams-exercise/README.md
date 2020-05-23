@@ -71,7 +71,7 @@ public class YouTubeTrendsExplorer {
         return null;
     }
 
-    // Other methods ...
+    // Other methods...
 }
 ```
 
