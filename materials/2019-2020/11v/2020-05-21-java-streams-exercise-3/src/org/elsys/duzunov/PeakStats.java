@@ -1,29 +1,60 @@
 package org.elsys.duzunov;
 
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class PeakStats {
+    private final List<Peak> peaks;
+
     /**
      * Loads the dataset from the given {@code dataInput} stream.
      */
     public PeakStats(InputStream dataInput) {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        try (
+                BufferedReader reader =
+                        new BufferedReader(new InputStreamReader(dataInput))
+        ) {
+            peaks = reader.lines()
+                    .map(Peak::createPeak)
+                    .collect(Collectors.toList());
+        } catch (IOException exception) {
+            throw new IllegalArgumentException(
+                    "Could not load dataset",
+                    exception
+            );
+        }
     }
 
     /**
      * Returns all peaks loaded from the dataset.
      **/
     public Collection<Peak> getPeaks() {
-        return null;
+        return Collections.unmodifiableList(peaks);
     }
 
     /**
      * @return - the height of the shortest peak that has never been ascended
      */
     public double shortestNotAscended() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+//        return peaks.stream()
+//                .filter(peak -> peak.getYearOfFirstAscent() == 0)
+//                .min(Comparator.comparingDouble(Peak::getHeight))
+//                .get()
+//                .getHeight();
+
+        return peaks.stream()
+                .filter(peak -> peak.getYearOfFirstAscent() == 0)
+                .mapToDouble(Peak::getHeight)
+                .min()
+                .getAsDouble();
     }
 
     /**
@@ -34,7 +65,17 @@ public class PeakStats {
      * @param n - the first n peaks to include in the statistics
      */
     public double averageAscentsInTopN(int n) {
-        throw new UnsupportedOperationException("Method not yet implemented");
+//        return peaks.stream()
+//                .sorted(Comparator.comparingInt(Peak::getPosition))
+//                .mapToInt(Peak::getTotalAscents)
+//                .limit(n)
+//                .average()
+//                .getAsDouble();
+
+        return peaks.stream()
+                .sorted(Comparator.comparingInt(Peak::getPosition))
+                .limit(n)
+                .collect(Collectors.averagingInt(Peak::getTotalAscents));
     }
 
     /**
@@ -45,7 +86,13 @@ public class PeakStats {
      * @return - the position where a peak with the given prominence would rank
      */
     public long getPositionByProminence(double prominence) {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        return peaks.stream()
+                .sorted(
+                        Comparator.comparingDouble(Peak::getProminence)
+                                .reversed()
+                )
+                .takeWhile(peak -> peak.getProminence() != prominence)
+                .count() + 1;
     }
 
     /**
@@ -55,7 +102,10 @@ public class PeakStats {
      * given year
      */
     public Peak getHighestAscentByYear(int year) {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        return peaks.stream()
+                .filter(peak -> peak.getYearOfFirstAscent() == year)
+                .max(Comparator.comparingDouble(Peak::getHeight))
+                .orElseThrow(IllegalArgumentException::new);
     }
 
     /**
@@ -63,7 +113,14 @@ public class PeakStats {
      * Himalayas sorted by prominence in descending order
      */
     public List<String> getNonHimalayaNamesByProminence() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        return peaks.stream()
+                .filter(peak -> !peak.getRange().contains("Himalaya"))
+                .sorted(
+                        Comparator.comparingDouble(Peak::getProminence)
+                                .reversed()
+                )
+                .map(Peak::getName)
+                .collect(Collectors.toList());
     }
 
     /**
@@ -71,6 +128,19 @@ public class PeakStats {
      * peaks in top N.
      */
     public String getRangeWithGreatestNumberOfPeaks(int n) {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        Map<String, Long> peaksCountByRange = peaks.stream()
+                .sorted(Comparator.comparingInt(Peak::getPosition))
+                .limit(n)
+                .collect(
+                        Collectors.groupingBy(
+                                Peak::getRange,
+                                Collectors.counting()
+                        )
+                );
+
+        return peaksCountByRange.entrySet().stream()
+                .max(Comparator.comparingLong(Map.Entry::getValue))
+                .get()
+                .getKey();
     }
 }
