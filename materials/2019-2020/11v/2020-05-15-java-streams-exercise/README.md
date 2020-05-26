@@ -96,6 +96,7 @@ public class YouTubeTrendsExplorer {
    ```java
    public List<String> findDistinctTitlesOfTop3VideosByViews()
    ```
+
 4. Връща ID-то на видеото с най-много тагове.
 
    ```java
