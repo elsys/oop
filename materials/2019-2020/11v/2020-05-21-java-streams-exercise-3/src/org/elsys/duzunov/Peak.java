@@ -86,6 +86,19 @@ public final class Peak {
     }
 
     @Override
+    public String toString() {
+        return "Peak{" +
+                "position=" + position +
+                ", name='" + name + '\'' +
+                ", height=" + height +
+                ", prominence=" + prominence +
+                ", range='" + range + '\'' +
+                ", yearOfFirstAscent=" + yearOfFirstAscent +
+                ", totalAscents=" + totalAscents +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
