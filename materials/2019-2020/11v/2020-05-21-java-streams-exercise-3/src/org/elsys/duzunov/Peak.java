@@ -2,7 +2,7 @@ package org.elsys.duzunov;
 
 import java.util.Objects;
 
-public class Peak {
+public final class Peak {
     private static final int POSITION = 0;
     private static final int NAME = 1;
     private static final int HEIGHT = 2;
