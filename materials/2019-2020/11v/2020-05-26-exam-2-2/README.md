@@ -5,7 +5,7 @@
 `Dataset`-ът е генериран от [vgchartz.com](https://www.vgchartz.com) и е взет от
 [kaggle](https://www.kaggle.com/gregorut/videogamesales/data), онлайн платформа
 за machine learning и data science на Google. Файла, съдържащ данните, може да
-свалите и [от тук](vgsales.txt). Всеки ред от файла съдържа информация за
+свалите и [от тук](vgsales.csv). Всеки ред от файла съдържа информация за
 продажбите на една видео игра в CSV (Comma-separated Values) формат:
 `Ранг,Име,Платформа,Година,Жанр,Издател,NA_продажби,EU_продажби,JP_продажби,Other_продажби,Global_продажби`
 
