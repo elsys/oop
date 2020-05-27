@@ -2,7 +2,7 @@ package org.elsys.duzunov;
 
 import java.util.Objects;
 
-public class Peak {
+public final class Peak {
     private static final int POSITION = 0;
     private static final int NAME = 1;
     private static final int HEIGHT = 2;
@@ -83,6 +83,19 @@ public class Peak {
 
     public int getTotalAscents() {
         return totalAscents;
+    }
+
+    @Override
+    public String toString() {
+        return "Peak{" +
+                "position=" + position +
+                ", name='" + name + '\'' +
+                ", height=" + height +
+                ", prominence=" + prominence +
+                ", range='" + range + '\'' +
+                ", yearOfFirstAscent=" + yearOfFirstAscent +
+                ", totalAscents=" + totalAscents +
+                '}';
     }
 
     @Override

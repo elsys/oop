@@ -128,7 +128,7 @@ public class PeakStats {
      * peaks in top N.
      */
     public String getRangeWithGreatestNumberOfPeaks(int n) {
-        Map<String, Long> peaksCountByRange = peaks.stream()
+        Map<String, Long> peaksCountInTopNByRange = peaks.stream()
                 .sorted(Comparator.comparingInt(Peak::getPosition))
                 .limit(n)
                 .collect(
@@ -138,7 +138,7 @@ public class PeakStats {
                         )
                 );
 
-        return peaksCountByRange.entrySet().stream()
+        return peaksCountInTopNByRange.entrySet().stream()
                 .max(Comparator.comparingLong(Map.Entry::getValue))
                 .get()
                 .getKey();
