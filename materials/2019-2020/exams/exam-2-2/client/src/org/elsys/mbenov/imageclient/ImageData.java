@@ -8,10 +8,10 @@ import org.json.simple.parser.ParseException;
 import java.util.List;
 
 public class ImageData {
-    long width;
-    long height;
-    List data;
-    String name;
+    public long width;
+    public long height;
+    public List data;
+    public String name;
 
     public ImageData(long width, long height, List data, String name) {
         this.width = width;
