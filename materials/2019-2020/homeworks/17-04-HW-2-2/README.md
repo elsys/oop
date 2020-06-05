@@ -180,13 +180,13 @@ public SportsCar(Model model, int year, int price, EngineType engineType, Region
 `PLOVDIV`, `RUSE`, `GABROVO`, `VIDIN`, `VRATSA`.
 * Всеки автомобил се идентифицира уникално чрез регистрационния си номер. Той се
 образува по следния начин:
-`<region><number><random alphabet char><random alphabet char>`, където
+`<region><number><random alphabetic char><random alphabetic char>`, където
 `<number>` е цяло число, започващо от 1000 за всяка една област (т.е. ако
 създадем първите два автомобила от различни области, `<number>` частта им от
 регистрационния номер ще бъде 1000 и за двата автомобила) и увеличаващо се с 1
-при всеки новосъздаден автомобил, `<random alphabet char>` e произволна буква от
-латинската азбука, а `<region>` е един от следните областни кодове (буквите на
-кодовете са от латинската азбука):
+при всеки новосъздаден автомобил, `<random alphabetic char>` e произволна буква
+от латинската азбука, а `<region>` е един от следните областни кодове (буквите
+на кодовете са от латинската азбука):
   * Бургас -> A
   * София -> CB
   * Варна -> B
@@ -195,6 +195,7 @@ public SportsCar(Model model, int year, int price, EngineType engineType, Region
   * Габрово -> EB
   * Пловдив -> PB
   * Русе -> P
+
   **Примери**: CB1111AA, P1234JA
 
 `enum`-ът `Region` трябва да има метод `getPrefix()`, който връща областния код.
