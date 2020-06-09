@@ -1,6 +1,6 @@
 package org.elsys.duzunov;
 
-public class Vault implements Runnable {
+public class Vault extends Thread {
     public Vault(CashDesk cashDesk) {
     }
 
