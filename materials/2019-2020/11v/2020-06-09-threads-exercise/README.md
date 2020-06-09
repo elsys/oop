@@ -50,11 +50,11 @@ public interface CashDesk {
 определено време.
 
 ```java
-    /**
-     * Simulates one purchase: waits a bit and returns the amount of money spent
-     * (i.e. the goods price)
-     */
-    public double buyGoods();
+/**
+ * Simulates one purchase: waits a bit and returns the amount of money spent
+ * (i.e. the goods price)
+ */
+public double buyGoods();
 ```
 
 ## Задача 2
