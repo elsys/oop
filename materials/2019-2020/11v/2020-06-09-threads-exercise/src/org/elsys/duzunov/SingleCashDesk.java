@@ -8,6 +8,9 @@ public class SingleCashDesk implements CashDesk {
     @Override
     public synchronized void serveCustomer(Customer customer) {
         setAmount(getAmount() + customer.buyGoods());
+        if (getAmount() > MAX_CASH) {
+            notify();
+        }
     }
 
     @Override
