@@ -6,17 +6,17 @@ public class SingleCashDesk implements CashDesk {
     private double amount = 0;
 
     @Override
-    public void serveCustomer(Customer customer) {
+    public synchronized void serveCustomer(Customer customer) {
         setAmount(getAmount() + customer.buyGoods());
     }
 
     @Override
-    public double getAmount() {
+    public synchronized double getAmount() {
         return amount;
     }
 
     @Override
-    public void setAmount(double amount) {
+    public synchronized void setAmount(double amount) {
         this.amount = amount;
     }
 }
