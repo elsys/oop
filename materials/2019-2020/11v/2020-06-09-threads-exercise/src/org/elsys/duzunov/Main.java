@@ -1,8 +1,9 @@
 package org.elsys.duzunov;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,17 +32,29 @@ public class Main {
     }
 
     private static void serveCustomers(Customer[] customers) {
-        List<Thread> customerThreads = Arrays.stream(customers)
-                .map(Thread::new)
-                .collect(Collectors.toList());
+        ExecutorService fixedThreadPool =
+                Executors.newFixedThreadPool(100);
 
-        customerThreads.forEach(Thread::start);
-        customerThreads.forEach(customerThread -> {
+        Arrays.stream(customers)
+                .forEach(fixedThreadPool::submit);
+
+        fixedThreadPool.shutdown();
+
+        int maxServiceTime = Arrays.stream(customers)
+                .mapToInt(Customer::getServiceTime)
+                .max()
+                .orElse(0);
+        final int TIME_BUFFER = 5000;
+
+        while (!fixedThreadPool.isTerminated()) {
             try {
-                customerThread.join();
+                fixedThreadPool.awaitTermination(
+                        maxServiceTime * customers.length + TIME_BUFFER,
+                        TimeUnit.MILLISECONDS
+                );
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        });
+        }
     }
 }
