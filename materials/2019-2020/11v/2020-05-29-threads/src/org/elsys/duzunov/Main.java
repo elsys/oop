@@ -176,6 +176,10 @@ public class Main {
         System.out.println(daemonThread.getState());
         daemonThread.join();
         System.out.println(daemonThread.getState());
+
+        // Синхронизация
+        BankAccount account = new BankAccount();
+        depositMoney(account, 100);
     }
 
     private static Object foo(Object ref) {
@@ -184,5 +188,29 @@ public class Main {
             ref = new Object();
         }
         return ref;
+    }
+
+    private static void depositMoney(BankAccount account, double amount) {
+        // Критична секция - една-единствена нишка за дадена сметка
+        // account може да изпълнява кода в синхронизираната секция
+        synchronized (account) {
+            account.deposit(amount);
+        }
+
+        // Некритична секция - много нишки могат да бъдат едновременно тук
+        System.out.println("Deposit completed");
+    }
+
+    private void doSomeWork() {
+        synchronized (this) {
+            // Критична секция - само една нишка може да
+            // изпълнява кода за конкретната инстанция 'this'
+        }
+    }
+
+    // еквивалентна на горната дефиниция, но по-четима
+    private synchronized void doSomeSynchronizedWork() {
+        // Критична секция - само една нишка може да
+        // изпълнява кода за конкретната инстанция 'this'
     }
 }
