@@ -10,6 +10,13 @@ public class BankAccount {
     }
 
     public synchronized void deposit(double amount) {
+        // Нишка може да извести чакащи нишки, че дадено събитие се е случило
+        // и те могат да продължат своето изпълнение. Това става чрез метода
+        // notify() на java.lang.Object
+
+        // При депозиране на пари по сметка, уведомяваме чакащите нишки,
+        // че са постъпили средства по сметката
+        this.notify();
         balance += amount;
     }
 
@@ -32,6 +39,20 @@ public class BankAccount {
             // thread2 - balance == 80
             // thread1 - balance == -10
         }
+    }
+
+    // Нишка може да заяви, че иска да изчака, докато дадено събитие се случи
+    // в друга нишка, чрез метода wait() на java.lang.Object
+    public synchronized void withdrawCreditPayment(double monthFee) {
+        while (this.balance < monthFee) {
+            try {
+                // Изчакваме и освобождаваме монитора this
+                this.wait();
+            } catch (InterruptedException e) {
+                // хвърля изключение, ако нишката бъде прекъсната
+            }
+        }
+        balance -= monthFee;
     }
 
     public static void incrementOperationsCount() {
