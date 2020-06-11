@@ -1,9 +1,9 @@
 package org.elsys.duzunov;
 
 public class Customer implements Runnable {
-    private CashDesk cashDesk;
-    private int serviceTime;
-    private double totalPrice;
+    private final CashDesk cashDesk;
+    private final int serviceTime;
+    private final double totalPrice;
 
     public Customer(CashDesk cashDesk, int serviceTime, double totalPrice) {
         this.cashDesk = cashDesk;
@@ -16,7 +16,13 @@ public class Customer implements Runnable {
      * (i.e. the goods price)
      */
     public double buyGoods() {
-        throw new UnsupportedOperationException("Please implement this method");
+        try {
+            Thread.sleep(serviceTime);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return getTotalPrice();
     }
 
     public double getTotalPrice() {
@@ -29,5 +35,6 @@ public class Customer implements Runnable {
 
     @Override
     public void run() {
+        cashDesk.serveCustomer(this);
     }
 }
