@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+
         SingleCashDesk singleCashDesk = new SingleCashDesk();
 
         Vault vault = new Vault(singleCashDesk);
@@ -21,6 +23,25 @@ public class Main {
                         .sum()
         );
         System.out.println(singleCashDesk.getAmount() + vault.getAmount());
+
+        long end = System.currentTimeMillis();
+        System.out.println((end - start) / 1000 + "s");
+
+        start = System.currentTimeMillis();
+
+        Supermarket supermarket = new Supermarket();
+        Customer[] supermarketCustomers = createCustomers(500, supermarket);
+        serveCustomers(supermarketCustomers);
+
+        System.out.println(
+                Arrays.stream(supermarketCustomers)
+                        .mapToDouble(Customer::getTotalPrice)
+                        .sum()
+        );
+        System.out.println(supermarket.getAmount());
+
+        end = System.currentTimeMillis();
+        System.out.println((end - start) / 1000 + "s");
     }
 
     private static Customer[] createCustomers(int n, CashDesk cashDesk) {
