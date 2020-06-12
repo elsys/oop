@@ -1,6 +1,7 @@
 package org.elsys.duzunov;
 
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class Supermarket implements CashDesk {
     private static final int MAX_DESKS = 20;
@@ -9,7 +10,8 @@ public class Supermarket implements CashDesk {
 
     private final ArrayBlockingQueue<CashDesk> cashDesks =
             new ArrayBlockingQueue<>(MAX_DESKS);
-    private double amount = 0;
+    private final AtomicLong amountBits =
+            new AtomicLong(Double.doubleToLongBits(0));
 
     public Supermarket() {
         for (int i = 0; i < MAX_DESKS; ++i) {
@@ -22,9 +24,12 @@ public class Supermarket implements CashDesk {
         try {
             CashDesk cashDesk = cashDesks.take();
             cashDesk.serveCustomer(customer);
-            synchronized (this) {
-                setAmount(getAmount() + customer.getTotalPrice());
-            }
+            amountBits.updateAndGet(
+                    currentValue -> Double.doubleToLongBits(
+                            Double.longBitsToDouble(currentValue) +
+                                    customer.getTotalPrice()
+                    )
+            );
             cashDesks.put(cashDesk);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -33,11 +38,11 @@ public class Supermarket implements CashDesk {
 
     @Override
     public double getAmount() {
-        return amount;
+        return Double.longBitsToDouble(amountBits.get());
     }
 
     @Override
     public void setAmount(double amount) {
-        this.amount = amount;
+        this.amountBits.set(Double.doubleToLongBits(amount));
     }
 }
