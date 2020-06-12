@@ -40,18 +40,9 @@ public class Main {
 
         fixedThreadPool.shutdown();
 
-        int maxServiceTime = Arrays.stream(customers)
-                .mapToInt(Customer::getServiceTime)
-                .max()
-                .orElse(0);
-        final int TIME_BUFFER = 5000;
-
         while (!fixedThreadPool.isTerminated()) {
             try {
-                fixedThreadPool.awaitTermination(
-                        maxServiceTime * customers.length + TIME_BUFFER,
-                        TimeUnit.MILLISECONDS
-                );
+                fixedThreadPool.awaitTermination(5, TimeUnit.SECONDS);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
