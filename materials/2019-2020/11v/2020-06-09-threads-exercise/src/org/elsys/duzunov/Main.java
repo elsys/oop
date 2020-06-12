@@ -12,7 +12,7 @@ public class Main {
         Vault vault = new Vault(singleCashDesk);
         vault.start();
 
-        Customer[] customers = createCustomers(100, singleCashDesk);
+        Customer[] customers = createCustomers(500, singleCashDesk);
         serveCustomers(customers);
 
         System.out.println(
