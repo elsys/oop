@@ -1,8 +1,16 @@
 package org.elsys.duzunov.tests;
 
+import org.elsys.duzunov.Car;
 import org.elsys.duzunov.CarStore;
+import org.elsys.duzunov.EngineType;
+import org.elsys.duzunov.Model;
+import org.elsys.duzunov.OrdinaryCar;
+import org.elsys.duzunov.Region;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.Collection;
+import java.util.Comparator;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -103,7 +111,8 @@ public class SampleCarStoreTest {
     }
 
     @Test
-    public void findByRegistrationNumberSucceeds() {
+    public void findByRegistrationNumberSucceeds()
+            throws CarStore.CarNotFoundException {
         Car one = new OrdinaryCar(
                 Model.AUDI,
                 CAR_MID_YEAR,
