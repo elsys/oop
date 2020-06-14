@@ -26,29 +26,29 @@ public class Workshop {
     }
 
     /**
-    * Adds a gift to the elves' backlog.
-    **/
+     * Adds a gift to the elves' backlog.
+     **/
     public void postWish(Gift gift) {
         throw new UnsupportedOperationException();
     }
 
     /**
-    * Returns an array of the elves working in Santa's workshop.
-    **/
+     * Returns an array of the elves working in Santa's workshop.
+     **/
     public Elf[] getElves() {
         throw new UnsupportedOperationException();
     }
 
     /**
-    * Returns the next gift from the elves' backlog that has to be manufactured.
-    **/
+     * Returns the next gift from the elves' backlog that has to be manufactured.
+     **/
     public Gift nextGift() {
         throw new UnsupportedOperationException();
     }
 
     /**
-    * Returns the total number of wishes sent to Santa's workshop by the kids.
-    **/
+     * Returns the total number of wishes sent to Santa's workshop by the kids.
+     **/
     public int getWishCount() {
          throw new UnsupportedOperationException(); 
     }
@@ -92,9 +92,9 @@ public enum Gift {
     private final String type;
     private final int craftTime;
 
-    private static Gift[] gifts = Gift.values();
+    private static final Gift[] gifts = Gift.values();
 
-    private static Random giftRand = new Random();
+    private static final Random giftRand = new Random();
 
     Gift(String type, int craftTime) {
         this.type = type;
@@ -136,15 +136,15 @@ public class Elf {
     }
 
     /**
-    * Gets a wish from the backlog and creates the wanted gift.
-    **/
+     * Gets a wish from the backlog and creates the wanted gift.
+     **/
     public void craftGift() {
         throw new UnsupportedOperationException();
     }
 
     /**
-    * Returns the total number of gifts that the given elf has crafted.
-    **/
+     * Returns the total number of gifts that the given elf has crafted.
+     **/
     public int getTotalGiftsCrafted() {
          throw new UnsupportedOperationException();
     }
