@@ -40,7 +40,8 @@ public class Workshop {
     }
 
     /**
-     * Returns the next gift from the elves' backlog that has to be manufactured.
+     * Returns the next gift from the elves' backlog that has to be
+     * manufactured.
      **/
     public Gift nextGift() {
         throw new UnsupportedOperationException();
