@@ -42,4 +42,9 @@ public class Elf extends Thread {
             craftGift();
         }
     }
+
+    @Override
+    public long getId() {
+        return id;
+    }
 }
