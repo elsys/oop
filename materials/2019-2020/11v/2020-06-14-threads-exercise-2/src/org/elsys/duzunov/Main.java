@@ -1,11 +1,16 @@
 package org.elsys.duzunov;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
         final int KIDS_COUNT = 500;
-        final int MILLISECONDS_TO_CHRISTMAS = 5_0;
+        final int MILLISECONDS_TO_CHRISTMAS = 50;
 
         Workshop workshop = new Workshop();
         Kid[] kids = new Kid[KIDS_COUNT];
@@ -33,25 +38,47 @@ public class Main {
                     }
                 });
 
-        System.out.println(workshop.getWishCount());
+        int wishCount = workshop.getWishCount();
+        System.out.println(wishCount);
 
         Arrays.stream(workshop.getElves())
                 .forEach(elf -> {
                     try {
                         elf.join();
-                        System.out.println(
-                                "Elf #" + elf.getId() + " created " +
-                                        elf.getTotalGiftsCrafted() + " gifts"
-                        );
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 });
 
-        System.out.println(
-                Arrays.stream(workshop.getElves())
-                        .mapToInt(Elf::getTotalGiftsCrafted)
-                        .sum()
-        );
+        List<String> elfResults = Arrays.stream(workshop.getElves())
+                .map(elf -> "Elf #" + elf.getId() + " created " +
+                        elf.getTotalGiftsCrafted() + " gifts")
+                .collect(Collectors.toList());
+        elfResults.forEach(System.out::println);
+
+        int totalGiftsCrafted = Arrays.stream(workshop.getElves())
+                .mapToInt(Elf::getTotalGiftsCrafted)
+                .sum();
+        System.out.println(totalGiftsCrafted);
+
+        try (var bufferedWriter =
+                     new BufferedWriter(new FileWriter("results.txt"))
+        ) {
+            bufferedWriter.write(Integer.toString(wishCount));
+            bufferedWriter.newLine();
+
+            elfResults.forEach(elfResult -> {
+                try {
+                    bufferedWriter.write(elfResult);
+                    bufferedWriter.newLine();
+                } catch (IOException exception) {
+                    exception.printStackTrace();
+                }
+            });
+
+            bufferedWriter.write(Integer.toString(totalGiftsCrafted));
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        }
     }
 }
