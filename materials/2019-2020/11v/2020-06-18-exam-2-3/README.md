@@ -60,9 +60,10 @@ public class CashDesk {
     }
 
     /**
-     * Returns the number of sold cards.
+     * Returns the number of cards currently taken and not returned by the
+     * snowboarders.
      */
-    public int getSoldCardsCount() {
+    public int getActiveCardsCount() {
     }
 
     /**
