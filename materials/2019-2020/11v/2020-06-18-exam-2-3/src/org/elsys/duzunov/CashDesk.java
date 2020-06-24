@@ -16,7 +16,7 @@ public class CashDesk {
      * Gives a card to a snowboarder. The snowboarder pays CARD_PRICE + DEPOSIT.
      */
     public synchronized void buyCard(Snowboarder snowboarder) {
-        if (getActiveCardsCount() == MAX_CARDS) {
+        if (getActiveCardsCount() == getMaxAvailableCardsCount()) {
             throw new IllegalStateException();
         }
 
