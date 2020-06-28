@@ -24,8 +24,8 @@ public class ImageData {
     public String toString() {
         return "ImageData{" +
                 "width=" + width +
-                ", height=" + height +
                 ", data=" + data +
+                ", height=" + height +
                 ", name='" + name + '\'' +
                 '}';
     }
