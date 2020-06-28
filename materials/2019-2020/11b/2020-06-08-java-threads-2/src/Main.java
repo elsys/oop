@@ -1,3 +1,7 @@
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class Main {
     public static void main(String[] args) {
         Truck truck = new Truck(15);
@@ -21,5 +25,35 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
+        ExecutorService ex = Executors.newFixedThreadPool(5);
+
+        ex.execute(new Train(station1, station2));
+        ex.execute(new Train(station1, station2));
+        ex.execute(new Train(station1, station2));
+        ex.execute(new Train(station1, station2));
+        ex.execute(new Train(station1, station2));
+
+        ex.execute(new Train(station1, station2));
+
+        try {
+            Thread.sleep(6000);
+            ex.shutdown();
+            System.out.println("Complete!");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+//        ex.execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//                    System.out.println("Henlo");
+//                    Thread.sleep(5000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
     }
 }
