@@ -124,7 +124,7 @@ author:
       url: "http://lubo.elsys-bg.org"
     - label: "Електронен дневник"
       icon: "fas fa-fw fa-table colorful"
-      url: "https://docs.google.com/spreadsheets/d/1G3cmSckvgz-KQthcBO9Ea5Hg-6gmP_hOpbB_u8hw4jM/edit?usp=sharing"
+      url: "https://docs.google.com/spreadsheets/d/1DEGak2n2gIsf3yVuNco0j2DkSQUTEvU517dsSRDORwg/edit?usp=sharing"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/elsys/oop"
