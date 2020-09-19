@@ -10,7 +10,7 @@ tags:
 0. [Github репо с материали](https://github.com/elsys/oop)
 0. [Електронен дневник](https://docs.google.com/spreadsheets/d/1DEGak2n2gIsf3yVuNco0j2DkSQUTEvU517dsSRDORwg/edit?usp=sharing)
 0. [Сайт на курса](https://elsys.github.io/oop/)
-0. [Имейл](elsys-oop@googlegroups.com)
+0. [Имейл](mailto:elsys-oop@googlegroups.com)
 
 Моля да попълните формата за записване. От нея ще попълним нашия вариант на електронен дневник, който ще ползваме докато станат готови официалните дневници.
 
