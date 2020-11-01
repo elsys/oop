@@ -1,0 +1,7 @@
+Brand New OOP Farm
+300
+2
+Wheat
+30 10
+Potatos
+20 15
