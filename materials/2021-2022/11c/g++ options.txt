@@ -1,0 +1,19 @@
+uname -sr
+- get your platform
+
+g++ --version
+- version
+
+g++ -c helloWorld.cpp hello.cpp
+- compile files into .o files
+
+g++ -o main.exe helloWorld.o hello.o
+- compiles object files into exe
+
+g++ -S helloWorld.cpp
+- generates the assembly
+
+g++ numerics.cpp -Wall
+or
+g++ numerics.cpp -Wconversion
+- enables arnings more here: https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
