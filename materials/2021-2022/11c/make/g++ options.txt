@@ -1,0 +1,9 @@
+compile all cpp files to single executable file called "demo.exe"
+	g++ *.cpp -o demo.exe
+
+get the assembly output of all cpp files. Capital "S"
+	g++ -S *.cpp
+
+get the object output from all cpp files
+	g++ -c *.cpp
+
