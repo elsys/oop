@@ -1,0 +1,10 @@
+all: program
+
+program: classes main
+	g++ -o program.exe point.o app.o
+	
+classes: point.cpp point.h
+	g++ -c point.cpp point.h 
+
+main: app.cpp
+	g++ -c app.cpp
