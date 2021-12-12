@@ -1,0 +1,16 @@
+Some Recipe
+A short example recipe
+25ml white rum
+25ml vodka
+50ml pineapple juice
+Step 1: Pour all in glass
+Step 2: Mix
+
+Another Recipe
+Another example recipe
+25ml tequila
+25ml whiskey
+50ml vodka
+Step 1: Put all in shaker with ice
+Step 2: Shake
+Step 3: Pour with a slice of lemon
