@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+	<style>
+	thead, tfoot {
+		background-color: #3f87a6;
+		color: #fff;
+	}
+	tbody { background-color: #e4f0f5; }
+	caption {
+		padding: 10px;
+		caption-side: bottom;
+	}
+
+	table {
+		border-collapse: collapse;
+		border: 2px solid rgb(200, 200, 200);
+		letter-spacing: 1px;
+		font-family: sans-serif;
+		font-size: .8rem;
+		width:100%;
+	}
+	td, th {
+		border: 1px solid rgb(190, 190, 190);
+		padding: 5px 10px;
+		width:33%;
+	}
+	</style>
+</head>
+<body>
+
+	<table>
+		<caption>Comparison of Java and C++</caption>
+		<thead>
+			<tr>
+				<th scope="col"></th>
+				<th scope="col">C++</th>
+				<th scope="col">Java</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">main</th>
+				<td>
+<pre>
+<code>	
+int main (int argc, char *argv[]) {
+    std::cout << "Hello World!" << std::endl;
+}
+</code>
+</pre>	
+				</td>
+				<td>
+				
+<pre>
+<code>
+public class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+</code>
+</pre>
+</td>
+			</tr>
+			
+			<tr>
+				<td>Abstraction</td>
+				<td>Yes</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Encapsulation</td>
+				<td>Yes</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Single Inheritance</td>
+				<td>Yes</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Multiple Inheritance</td>
+				<td>Yes</td>
+				<td>No. Multiple inheritances are achieved partially using interfaces.</td>
+			</tr>			
+			<tr>
+				<td>Polymorphism</td>
+				<td>Yes</td>
+				<td>Yes</td>
+			</tr>	
+			<tr>
+				<td>Operator Overloading</td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Header Files</td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Pointers</td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Global Variables</td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Template Class</td>
+				<td>yes - <code>template &lt;typename T&gt;</code></td>
+				<td>no  - <code>class Something&lt;T&gt;</code></td>
+			</tr>
+			<tr>
+				<td>Platform Dependency</td>
+				<td>Platform dependent, should be compiled for different platforms.</td>
+				<td>Platform independent, Java bytecode works on any operating system (if JVM is avalable).</td>
+			</tr>
+			<tr>
+				<td>Portability</td>
+				<td>C++ is platform-dependent hence it is not portable.</td>
+				<td>It can run in any OS hence it is portable. Excluding Android!</td>
+			</tr>
+			<tr>
+				<td>Memory Management</td>
+				<td>Memory Management in C++ is Manual.</td>
+				<td>Memory Management is System Controlled. Garbage collector.</td>
+			</tr>
+			<tr>
+				<td>Virtual Keyword</td>
+				<td>It has Virtual Keyword.</td>
+				<td>It doesn’t have Virtual Keyword.</td>
+			</tr>
+			<tr>
+				<td>Thread Support</td>
+				<td>thread support in C++ dependent on system libs, different for every OS</td>
+				<td>Java have classes that handle threading</td>
+			</tr>
+			<tr>
+				<td>Root hierarchy</td>
+				<td>C++ there is no such root hierarchy. C++ supports both procedural and object-oriented programming; therefore, it is called a hybrid language.</td>
+				<td>Java is a pure object-oriented programming language. That’s. Why It follows single root hierarchy.</td>
+			</tr>
+			<tr>
+				<td>Runtime error detection</td>
+				<td>Programmer responsibility.</td>
+				<td>System Responsibility.</td>
+			</tr>
+			<tr>
+				<td>Structure</td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Compiler & Interpreter</td>
+				<td>compiled </td>
+				<td>compiled as well as an interpreted.<br>NB! you can compile java class to an executable, highly discouraged.</td>
+			</tr>
+			<tr>
+				<td>Input & Output</td>
+				<td>cin, cout, cerr</td>
+				<td>System.in, System.out, System.err</td>
+			</tr>
+			<tr>
+				<td>bounds checking</td>
+				<td>nope</td>
+				<td>All operations are required to be bound-checked by all compliant distributions of Java. HotSpot can remove bounds checking.</td>
+			</tr>
+			<tr>
+				<td>immutability</td>
+				<td>const </td>
+				<td>final </td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</tbody>
+	</table>
+</body>
+</html>
