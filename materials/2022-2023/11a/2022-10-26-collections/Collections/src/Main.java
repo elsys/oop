@@ -2,6 +2,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        String s = "";
+        System.out.println(s);
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(1);
         arrayList.add(2);
@@ -82,5 +84,11 @@ public class Main {
         for(var element : list) {
             System.out.println(element.getValue());
         }
+    }
+
+    public void test(Collection s) {
+        Object;
+        List s1 = (List) s;
+
     }
 }
