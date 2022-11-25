@@ -10,6 +10,10 @@ public class Tournament {
         this.name = name;
     }
 
+    public List<Participant> getParticipants() {
+        return participants;
+    }
+
     public void addParticipant(Participant participant) {
         participant.setId(participants.size());
         participants.add(participant);
@@ -30,7 +34,7 @@ public class Tournament {
         determineWinner(group1, group2);
     }
 
-    private void groupFight(Queue<Participant> group1, Queue<Participant> group2) {
+    void groupFight(Queue<Participant> group1, Queue<Participant> group2) {
         while (group1.size() > 0 && group2.size() > 0) {
             Participant participant1 = group1.poll();
             Participant participant2 = group2.poll();
@@ -47,7 +51,7 @@ public class Tournament {
         }
     }
 
-    private void splitInGroups(Queue<Participant> group1, Queue<Participant> group2) {
+    void splitInGroups(Queue<Participant> group1, Queue<Participant> group2) {
         var iterator = participants.iterator();
         while (iterator.hasNext()) {
             group1.add(iterator.next());
@@ -65,7 +69,7 @@ public class Tournament {
         }
     }
 
-    private Participant fight(Participant participant1, Participant participant2) {
+    Participant fight(Participant participant1, Participant participant2) {
         while (!participant1.isKnockedOut() && !participant2.isKnockedOut()) {
             System.out.println(participant1 + " is attacking " + participant2);
             participant1.attack(participant2);
