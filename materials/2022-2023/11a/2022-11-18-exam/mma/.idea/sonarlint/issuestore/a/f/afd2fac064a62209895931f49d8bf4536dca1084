@@ -1,0 +1,18 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¼¤†§
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Â¶Ä“
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡ñ…Ş
+Y
+java:S1155&">Use isEmpty() to check whether the collection is empty or not.(µÊşıúÿÿÿÿ
+Y
+java:S1155&">Use isEmpty() to check whether the collection is empty or not.(µÊşıúÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(çñöêøÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(œáÊïûÿÿÿÿ
+Y
+java:S1155A">Use isEmpty() to check whether the collection is empty or not.(©Šìúÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(•ºçùÿÿÿÿ
+M	java:S106D"9Replace this use of System.out or System.err by a logger.(Ì­ÕW
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(Êêç‚
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(Ö¥£
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
