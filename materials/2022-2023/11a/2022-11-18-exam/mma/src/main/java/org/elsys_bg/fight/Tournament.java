@@ -4,6 +4,11 @@ import java.util.*;
 
 public class Tournament {
     private List<Participant> participants = new LinkedList<>();
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private String name;
 
     public Tournament(String name) {

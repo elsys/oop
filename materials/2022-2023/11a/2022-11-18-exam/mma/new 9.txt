@@ -1,0 +1,4 @@
+karate ime_na_geroi 32 45  
+kung_fu ime_na_geroi  46
+boxer ime_na_geroi 34 47 
+judo ime_na_geroi 35 
