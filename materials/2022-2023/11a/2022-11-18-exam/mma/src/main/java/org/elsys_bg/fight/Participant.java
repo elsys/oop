@@ -47,4 +47,16 @@ public abstract class Participant {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    double geHealth() {
+        return health;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public double getMaxHealth() {
+        return maxHealth;
+    }
 }
