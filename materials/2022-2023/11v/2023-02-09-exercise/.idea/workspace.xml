@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34e48d6b-c36a-4543-9558-2855cb6f7572" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/2022-02-22-collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/2022-02-22-collections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/2022-04-12-unit-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/2022-04-12-unit-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/2022-04-19-unit-test-mocks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/2022-04-19-unit-test-mocks/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/2022-05-03-exam-exercise/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/2022-05-03-exam-exercise/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/booleans-arithmetic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/booleans-arithmetic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/containers/containers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/containers/containers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/ctor/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/ctor/point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/exception.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/exception.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/exceptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/exceptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/myexeption.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/exceptions/myexeption.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/float-Numbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/float-Numbers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/function-overload.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/function-overload.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/g++ options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/g++ options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/macros-complex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/macros-complex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/macros.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/macros.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/make/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/make/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/make/articles for make.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/make/articles for make.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/make/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/make/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/make/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/make/point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/make/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/make/point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/operators/complex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/operators/complex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/point.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/point.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/read-write-from-console.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/read-write-from-console.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/read-write.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/read-write.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/stack/stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/stack/stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/streams/streams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/streams/streams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/vector/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/vector/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/11c/warnings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/11c/warnings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-10-13/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-10-13/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-10-26/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-10-26/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-11-11/references.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/consultations/2021-11-11/references.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Bar.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Bar.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Bar.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Bar.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Recipe.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Recipe.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Recipe.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/Recipe.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/example_recipes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/example_recipes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 1-2/11b/solution/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/2022-03-17-java-exam-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/2022-03-17-java-exam-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/AbstractElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/AbstractElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Multiplexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Multiplexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Splitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Splitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/exams/exam 2-1/11b 11v/2022-03-17-java-exam-1/src/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/BaseObject.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/BaseObject.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/BaseObject.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/BaseObject.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/GC.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/GC.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/GC.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/GC.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/with-pages/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/BaseObject.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/BaseObject.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/BaseObject.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/BaseObject.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/GC.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/GC.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/GC.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/GC.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2021-12-17-garbage-collector/without-pages/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/cell.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/cell.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/cell.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/cell.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/city.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/city.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/city.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/city.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/example/city_builder_example.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/example/city_builder_example.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/industrial.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/industrial.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/industrial.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/industrial.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/leisure.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/leisure.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/leisure.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/leisure.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/residential.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/residential.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/residential.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/residential.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/road.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/road.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/road.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-09-city-builder/road.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/pokemon.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/pokemon.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/pokemon.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/pokemon.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_acid_armor.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_acid_armor.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_bite.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_bite.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_growl.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_growl.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_growth.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_growth.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_heal.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_heal.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_leech_seed.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_leech_seed.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_leer.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_leer.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_pound.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/skill_pound.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_armor_down.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_armor_down.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_armor_up.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_armor_up.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_effect.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_effect.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_effect.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_effect.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_hp_steal.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_hp_steal.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_power_down.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_power_down.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_power_up.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-01-17-pokemons/status_power_up.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/2022-03-08-audio-editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/2022-03-08-audio-editor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Anomaly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Anomaly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/analysis/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/main/Processable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/main/Processable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Denoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Denoise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Mute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Mute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Normalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Normalize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-03-08-audio-editor/src/transformer/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Oven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Oven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/homeworks/2022-06-12-sandwiches/src/main/java/org/elsys/oop/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2021-2022/java-vs-c++.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2021-2022/java-vs-c++.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/employee.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/employee.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/employee.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/employee.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/human.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/human.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/manager.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-09-28-virtual/manager.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/JavaIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/JavaIntro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/part2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-19-java-intro/JavaIntro/src/org/elsys_bg/java/intro/part2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/krum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/krum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-21-shapes_java/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/Collections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/Collections.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/org/elsys/Neshto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/org/elsys/Neshto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/org/elsys/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-10-26-collections/Collections/src/org/elsys/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Bat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Cobra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Cobra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Fly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Pudel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Pudel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Swim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Walk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-02-inheritance/inheritance/src/org/elsys_bg/inheritance/Walk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/Shapes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/Shapes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/HasHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/HasHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/PointHoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/PointHoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Reactangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Reactangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-04-shapes/Shapes/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/mma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/mma.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/new 9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/new 9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/TournamentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/TournamentReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Judo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Judo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Karate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/Karate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/MuaiThai.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/styles/MuaiThai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanKick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanKick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanSpin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanSpin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanWrestle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/main/java/org/elsys_bg/fight/techniks/CanWrestle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/test/java/org/elsys_bg/fight/ParticipantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/test/java/org/elsys_bg/fight/ParticipantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/test/java/org/elsys_bg/fight/TournamentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-18-exam/mma/src/test/java/org/elsys_bg/fight/TournamentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/Junit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/Junit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/main/java/org/elsys_bg/junit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/main/java/org/elsys_bg/junit/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/main/java/org/elsys_bg/junit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/main/java/org/elsys_bg/junit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/test/java/org/elsys_bg/junit/AbstractTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/test/java/org/elsys_bg/junit/AbstractTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/test/java/org/elsys_bg/junit/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-23-junit/Junit/src/test/java/org/elsys_bg/junit/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/src/main/java/org/elsys_bg/something/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/src/main/java/org/elsys_bg/something/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/src/main/java/org/elsys_bg/something/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-11-30-read-write/read-write/src/main/java/org/elsys_bg/something/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/exceptions-map.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/exceptions-map.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/map/CompositeKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/map/CompositeKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/map/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2022-12-07-eceptions-map/exceptions-map/src/main/java/org/elsys_bg/map/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/inner-classes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/inner-classes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/OuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/2023-01-04-inner-classes/inner-classes/src/org/elsys_bg/classes/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/point.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/point.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/shape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/shape.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/shape.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/shape.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11a/shapes/triangle.hh" beforeDir="false" afterPath="$PROJECT_DIR$/../../11a/shapes/triangle.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-09-16-c++-revision/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-09-16-c++-revision/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-09-23-revision-2/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-09-23-revision-2/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-09-26-revision-3/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-09-26-revision-3/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-09-28-revision-4/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-09-28-revision-4/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-03-java-intro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-03-java-intro/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-03-java-intro/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-03-java-intro/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-05-java-intro-exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-05-java-intro-exercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-05-java-intro-exercise/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-05-java-intro-exercise/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/Intellij-intro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/Intellij-intro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-10-intellij-intro/Intellij-intro/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/intellij-exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/intellij-exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-12-intellij-exercise/intellij-exercise/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-17-collections/collections/collections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-17-collections/collections/collections.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-17-collections/collections/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-17-collections/collections/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Abs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/IOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/IOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/UnaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-24-inheritance/inheritance/src/UnaryOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/IWithPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/IWithPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-10-26-inheritance-exercise/inheritance/src/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/exam-and-exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/exam-and-exceptions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/FootballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/FootballTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TeamAddable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TeamAddable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TennisPLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TennisPLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TennisTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-07-exam-and-exceptions/exam-and-exceptions/src/TennisTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-09-io/input-output/input-output.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-09-io/input-output/input-output.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-09-io/input-output/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-09-io/input-output/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-09-io/input-output/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-09-io/input-output/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-09-io/input-output/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-09-io/input-output/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-11-21-exercise/exercise/src/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-05-object/untitled/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-05-object/untitled/src/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-05-object/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-05-object/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-05-object/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-05-object/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-07-exercise/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-07-exercise/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-07-exercise/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-07-exercise/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/exam-2-solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/exam-2-solution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/ChessGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/ChessGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-14-exam-2-solution/exam-2-solution/src/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-19-packages/untitled/src/org/elsys/oop/packagesdemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-19-packages/untitled/src/org/elsys/oop/packagesdemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-19-packages/untitled/src/org/elsys/oop/packagesdemo/inner/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-19-packages/untitled/src/org/elsys/oop/packagesdemo/inner/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-12-19-packages/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2022-12-19-packages/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-01-11-lambda/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-01-16-stream-api/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-01-16-stream-api/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-01-16-stream-api/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-01-16-stream-api/untitled/untitled.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#175#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ILineTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Line.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="method#Line#0;class#Line#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Line.java" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/src/LineTransformer.java" />
+        <option value="$PROJECT_DIR$/src/ILineTransformer.java" />
+        <option value="$PROJECT_DIR$/src/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2023-02-09-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2023-02-09-exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2023-02-09-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2023-02-09-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2023-02-09-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2023-02-09-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1675954500965" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\TUES\oop\materials\2022-2023\11v\2023-02-09-exercise\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="2023-02-09-exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34e48d6b-c36a-4543-9558-2855cb6f7572" name="Default Changelist" comment="" />
+      <created>1675951364966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675951364966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.07372654" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="method#Line#0;class#Line#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ILineTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>19</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>2023-02-09-exercise</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
