@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/2023-02-14-lambda.iml" filepath="$PROJECT_DIR$/.idea/2023-02-14-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams.iml" filepath="$PROJECT_DIR$/streams.iml" />
     </modules>
   </component>
 </project>
