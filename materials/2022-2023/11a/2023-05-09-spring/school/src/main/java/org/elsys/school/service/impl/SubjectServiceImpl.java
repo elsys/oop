@@ -7,6 +7,7 @@ import org.elsys.school.service.SubjectService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -21,5 +22,10 @@ public class SubjectServiceImpl implements SubjectService {
     @Override
     public Subject save(Subject subject) {
         return subjectRepository.save(subject);
+    }
+
+    @Override
+    public Optional<Subject> getSubjectByName(String name) {
+        return subjectRepository.getSubjectsByName(name);
     }
 }

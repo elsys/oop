@@ -1,6 +1,9 @@
 package org.elsys.school.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import lombok.Data;
 import lombok.ToString;
 
@@ -16,5 +19,6 @@ public class Subject {
     private String name;
 
     @OneToMany(mappedBy = "subject")
+    @ToString.Exclude
     private List<Teacher> teachers;
 }

@@ -1,8 +1,8 @@
 package org.elsys.school.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.elsys.school.controller.resources.TeacherResource;
 import org.elsys.school.entity.Subject;
-import org.elsys.school.entity.Teacher;
 import org.elsys.school.service.SubjectService;
 import org.elsys.school.service.TeacherService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,10 +28,10 @@ public class TeacherController {
         Subject savedSubject = subjectService.save(subject);
 
 
-        Teacher t = new Teacher();
+        TeacherResource t = new TeacherResource();
         t.setName("Teacher");
         t.setAge(10);
-        t.setSubject(savedSubject);
+        t.setSubject("asdasd");
 
         return teacherService.save(t).toString();
     }
