@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static org.elsys.school.mapper.TeacherMapper.MAPPER;
+import static org.elsys.school.mapper.TeacherMapper.TEACHER_MAPPER;
 
 @Service
 @RequiredArgsConstructor
@@ -21,12 +21,17 @@ public class TeacherServiceImpl implements TeacherService {
 
     @Override
     public List<TeacherResource> findAll() {
-        return MAPPER.toTeacherResources(teacherRepository.findAll());
+        return TEACHER_MAPPER.toTeacherResources(teacherRepository.findAll());
     }
 
     @Override
-    public Teacher save(TeacherResource teacherResource) {
-        Teacher teacher = MAPPER.fromTeacherResource(teacherResource);
+    public TeacherResource getById(long teacherId) {
+        return TEACHER_MAPPER.toTeacherResource(teacherRepository.getReferenceById(teacherId));
+    }
+
+    @Override
+    public TeacherResource save(TeacherResource teacherResource) {
+        Teacher teacher = TEACHER_MAPPER.fromTeacherResource(teacherResource);
         subjectService.getSubjectByName(teacher.getSubject().getName())
                 .ifPresentOrElse(
                         teacher::setSubject,
@@ -34,6 +39,13 @@ public class TeacherServiceImpl implements TeacherService {
                             throw new EntityNotFoundException("");
                         }
                 );
-        return teacherRepository.save(teacher);
+        return TEACHER_MAPPER.toTeacherResource(teacherRepository.save(teacher));
     }
+
+    @Override
+    public void delete(long teacherId) {
+        teacherRepository.deleteById(teacherId);
+    }
+
+
 }

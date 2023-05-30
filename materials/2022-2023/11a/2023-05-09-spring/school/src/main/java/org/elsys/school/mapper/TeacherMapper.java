@@ -11,7 +11,7 @@ import java.util.List;
 @Mapper
 public interface TeacherMapper {
 
-    TeacherMapper MAPPER = Mappers.getMapper(TeacherMapper.class);
+    TeacherMapper TEACHER_MAPPER = Mappers.getMapper(TeacherMapper.class);
 
     @Mapping(target = "subject.name", source = "teacherResource.subject")
     Teacher fromTeacherResource(TeacherResource teacherResource);
