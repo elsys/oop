@@ -13,6 +13,8 @@ public interface SubjectService {
 
     SubjectResource save(SubjectResource subject);
 
+    SubjectResource update(SubjectResource subjectResource, long id);
+
     Optional<Subject> getSubjectByName(String name);
 
     void delete(long id);

@@ -39,6 +39,14 @@ public class SubjectServiceImpl implements SubjectService {
     }
 
     @Override
+    public SubjectResource update(SubjectResource resource, long id) {
+        Subject toUpdate = subjectRepository.getReferenceById(id);
+        toUpdate.setName(resource.getName());
+
+        return SUBJECT_MAPPER.toSubjectResource(subjectRepository.save(toUpdate));
+    }
+
+    @Override
     public Optional<Subject> getSubjectByName(String name) {
         return subjectRepository.getSubjectsByName(name);
     }
