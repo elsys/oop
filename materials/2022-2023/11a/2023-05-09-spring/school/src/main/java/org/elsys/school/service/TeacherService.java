@@ -11,6 +11,8 @@ public interface TeacherService {
 
     TeacherResource save(TeacherResource teacher);
 
+    TeacherResource update(TeacherResource resource, long id);
+
     void delete(long teacherId);
 
 

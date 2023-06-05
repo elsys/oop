@@ -33,19 +33,30 @@ public class TeacherServiceImpl implements TeacherService {
     public TeacherResource save(TeacherResource teacherResource) {
         Teacher teacher = TEACHER_MAPPER.fromTeacherResource(teacherResource);
         subjectService.getSubjectByName(teacher.getSubject().getName())
-                .ifPresentOrElse(
-                        teacher::setSubject,
+                .ifPresentOrElse(teacher::setSubject,
                         () -> {
-                            throw new EntityNotFoundException("");
+                            throw new EntityNotFoundException("Subject with name " + teacherResource.getSubject() + " not found!");
                         }
                 );
         return TEACHER_MAPPER.toTeacherResource(teacherRepository.save(teacher));
     }
 
     @Override
+    public TeacherResource update(TeacherResource resource, long id) {
+        Teacher toUpdate = teacherRepository.getReferenceById(id);
+        toUpdate.setName(resource.getName());
+        toUpdate.setAge(resource.getAge());
+        subjectService.getSubjectByName(resource.getSubject())
+                .ifPresentOrElse(toUpdate::setSubject,
+                        () -> {
+                            throw new EntityNotFoundException("Subject with name " + resource.getSubject() + " not found!");
+                        });
+
+        return TEACHER_MAPPER.toTeacherResource(teacherRepository.save(toUpdate));
+    }
+
+    @Override
     public void delete(long teacherId) {
         teacherRepository.deleteById(teacherId);
     }
-
-
 }
