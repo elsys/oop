@@ -1,0 +1,4 @@
+table table1
+column1 string
+column2 string
+column3 number
