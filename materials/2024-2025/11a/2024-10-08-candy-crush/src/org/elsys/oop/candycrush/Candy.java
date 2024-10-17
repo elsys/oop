@@ -10,6 +10,6 @@ public abstract class Candy {
 
     public abstract void display();
 
-    public abstract void checkAdj();
-}
+    public abstract void onSwap(Coordinate coordinate);
 
+}

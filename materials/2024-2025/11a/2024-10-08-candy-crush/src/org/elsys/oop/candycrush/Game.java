@@ -1,7 +1,7 @@
 package org.elsys.oop.candycrush;
 
 public class Game {
-    private Candy[][] board;
+    Candy[][] board;
     private int score;
     private int size;
 
@@ -15,18 +15,28 @@ public class Game {
         fillBoard();
     }
 
+    public int getSize() {
+        return size;
+    }
+
     private void fillBoard() {
-        int bombCount = 0;
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                if (Math.random() < BOMB_CHANCE && bombCount < MAX_BOMBS) {
-                    bombCount++;
-                    board[i][j] = new BombCandy(this);
-                } else {
-                    board[i][j] = new RegularCandy(this);
-                }
+                createCandy( i, j);
             }
         }
+    }
+
+    void createCandy(int i, int j) {
+        if (Math.random() < BOMB_CHANCE) {
+            board[i][j] = new BombCandy(this);
+        } else {
+            board[i][j] = new RegularCandy(this);
+        }
+    }
+
+    public Candy getCandy(Coordinate coordinate) {
+        return board[coordinate.x()][coordinate.y()];
     }
 
     public void display() {
@@ -43,11 +53,13 @@ public class Game {
         if (!n.isInBoard(size)) throw new RuntimeException("Invalid swap");
 
 
-        Candy temp = board[n.x()][n.y()];
-        board[n.x()][n.y()] = board[coordinate.x()][coordinate.y()];
+        Candy temp = getCandy(n);
+        board[n.x()][n.y()] = getCandy(coordinate);
         board[coordinate.x()][coordinate.y()] = temp;
 
-        temp.checkAdj()
+        temp.onSwap(coordinate);
+        getCandy(n).onSwap(coordinate);
     }
+
 
 }

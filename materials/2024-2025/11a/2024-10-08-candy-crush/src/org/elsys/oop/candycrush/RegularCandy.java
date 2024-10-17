@@ -8,7 +8,34 @@ public class RegularCandy extends Candy {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof RegularCandy other) {
+            return other.type == this.type;
+        }
+        return false;
+    }
+
+    @Override
     public void display() {
         System.out.print(type);
+    }
+
+    @Override
+    public void onSwap(Coordinate coordinate) {
+        horizontalCheck(coordinate);
+        verticalCheck(coordinate);
+    }
+
+    private void horizontalCheck(Coordinate coordinate) {
+        int rightBound = coordinate.x();
+        for (int i = coordinate.x(); i < game.getSize() && game.board[i][coordinate.y()].equals(this); i++) {
+            rightBound = i;
+        }
+        int leftBound = coordinate.x();
+        for (int i = coordinate.x(); i >= 0 && game.board[i][coordinate.y()].equals(this); i++) {
+            leftBound = i;
+        }
+
+        // ...
     }
 }
